@@ -1,8 +1,14 @@
 {
     "name": "hackzilla/bing-api",
     "description": "Classes for Bing Ads web services",
+    "keywords": ["bing", "api"],
+    "type": "library",
     "license": "Apache-2.0",
     "authors": [
+        {
+            "name": "Microsoft",
+            "homepage": "http://msdn.microsoft.com/en-us/library/dn169442(v=msads.10).aspx"
+        },
         {
             "name": "Daniel Platt",
             "email": "dan@ukwebmedia.com"
