@@ -1,0 +1,19 @@
+{
+    "name": "hackzilla/bing-api",
+    "description": "Classes for Bing Ads web services",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Daniel Platt",
+            "email": "dan@ukwebmedia.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0": {
+            "BingAds": "PHP/bingads"
+        }
+    }
+}
