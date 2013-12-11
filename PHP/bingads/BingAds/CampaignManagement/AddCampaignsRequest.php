@@ -1,0 +1,22 @@
+<?php
+
+namespace BingAds\CampaignManagement;
+
+/**
+ * Adds one or more campaigns to the specified account.
+ * @link http://msdn.microsoft.com/en-us/library/bb671986(v=MSADS.80).aspx AddCampaignsRequest Request Object
+ */
+final class AddCampaignsRequest
+{
+    /**
+     * The identifier of the account to add the campaigns to.
+     * @var long
+     */
+    public $AccountId;
+
+    /**
+     * An array of Campaign objects to add to the specified account.
+     * @var Campaign[]
+     */
+    public $Campaigns;
+}
