@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Removes the target association for the specified ad group.
- * @link http://msdn.microsoft.com/en-us/library/dd797074(v=MSADS.80).aspx DeleteTargetFromAdGroupRequest Request Object
+ * Removes the specified target association for the specified ad group.
+ * @link http://msdn.microsoft.com/en-us/library/dn277500(v=msads.90).aspx DeleteTargetFromAdGroupRequest Request Object
  */
 final class DeleteTargetFromAdGroupRequest
 {

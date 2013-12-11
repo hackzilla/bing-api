@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * For internal use only.
- * @link http://msdn.microsoft.com/en-us/library/ff728418(v=msads.80).aspx ServiceLevel Value Set
+ * @link http://msdn.microsoft.com/en-us/library/ff728418(v=msads.90).aspx ServiceLevel Value Set
  */
 final class ServiceLevel
 {

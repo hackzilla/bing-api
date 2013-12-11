@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a share of voice report.
- * @link http://msdn.microsoft.com/en-us/library/jj592910(v=msads.80).aspx ShareOfVoiceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/jj592910(v=msads.90).aspx ShareOfVoiceReportColumn Value Set
  */
 final class ShareOfVoiceReportColumn
 {
@@ -14,22 +14,17 @@ final class ShareOfVoiceReportColumn
     /** The report will include a column that contains the time period of each report row. */
     const TimePeriod = 'TimePeriod';
 
-    const ProductName = 'ProductName';
-
     /** The report will include a column that contains the campaign name. */
     const CampaignName = 'CampaignName';
 
     /** The report will include a column that contains the ad group name. */
     const AdGroupName = 'AdGroupName';
 
-    /** Do not use this column; it is for backwards compatibility only. Instead, use the Language column. */
-    const LanguageAndRegion = 'LanguageAndRegion';
-
     /** The report will include a column that contains the keyword that matched the user's search query. */
     const Keyword = 'Keyword';
 
-    /** The report will include a column that contains the delivered match type. */
-    const MatchType = 'MatchType';
+    /** The report will include a column that contains the delivered match type. For possible values, see the DeliveredMatchTypeReportFilter value set. */
+    const DeliveredMatchType = 'DeliveredMatchType';
 
     /** The report will include a column that contains the bid match type. For possible values, see the BidMatchTypeReportFilter value set. */
     const BidMatchType = 'BidMatchType';

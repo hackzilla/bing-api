@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Defines an object that contains a suggested keyword and a confidence score. The confidence score indicates the probability that the keyword would match a user's search query.
- * @link http://msdn.microsoft.com/en-us/library/gg670952(v=msads.80).aspx KeywordAndConfidence Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg670952(v=msads.90).aspx KeywordAndConfidence Data Object
  */
 final class KeywordAndConfidence
 {

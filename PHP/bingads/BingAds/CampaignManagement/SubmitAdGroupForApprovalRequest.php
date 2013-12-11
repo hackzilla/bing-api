@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Submits an ad group for editorial review.
- * @link http://msdn.microsoft.com/en-us/library/bb671674(v=MSADS.80).aspx SubmitAdGroupForApprovalRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277516(v=msads.90).aspx SubmitAdGroupForApprovalRequest Request Object
  */
 final class SubmitAdGroupForApprovalRequest
 {

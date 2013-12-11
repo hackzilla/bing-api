@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines an order for the list of customers returned using the SearchCustomers operation.
- * @link http://msdn.microsoft.com/en-us/library/dn313268(v=msads.80).aspx OrderBy Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dn452057(v=msads.90).aspx OrderBy Data Object
  */
 final class OrderBy
 {

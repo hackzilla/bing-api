@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines a customer.
- * @link http://msdn.microsoft.com/en-us/library/bb671875(v=msads.80).aspx Customer Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671875(v=msads.90).aspx Customer Data Object
  */
 final class Customer
 {
@@ -45,13 +45,18 @@ final class Customer
     public $LastModifiedTime;
 
     /**
-     * The primary country where the customer operates. For possible values, see Country Codes.
+     * The primary country where the customer operates. For possible values, see Geographical Location Codes.
      * @var string
      */
     public $MarketCountry;
 
     /**
-     * The primary language that the customer uses. For possible values, see LanguageType.
+     * The list of key and value strings for forward compatibility. This element can be used to avoid otherwise breaking changes when new elements are added in future releases.
+     */
+    public $ForwardCompatibilityMap;
+
+    /**
+     * The primary language that the customer uses.
      * @var LanguageType
      */
     public $MarketLanguage;

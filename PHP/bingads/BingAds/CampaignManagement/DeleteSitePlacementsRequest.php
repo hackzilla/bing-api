@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Deletes one or more site placement bids from an ad group.
- * @link http://msdn.microsoft.com/en-us/library/dd796968(v=MSADS.80).aspx DeleteSitePlacementsRequest Request Object
+ * Deletes one or more website-placement bids from an ad group.
+ * @link http://msdn.microsoft.com/en-us/library/dn236315(v=msads.90).aspx DeleteSitePlacementsRequest Request Object
  */
 final class DeleteSitePlacementsRequest
 {

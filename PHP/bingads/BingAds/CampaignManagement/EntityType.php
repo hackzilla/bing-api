@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the possible types of entities.
- * @link http://msdn.microsoft.com/en-us/library/jj622172(v=msads.80).aspx EntityType Value Set
+ * @link http://msdn.microsoft.com/en-us/library/jj622172(v=msads.90).aspx EntityType Value Set
  */
 final class EntityType
 {
@@ -26,6 +26,5 @@ final class EntityType
     /** For future use. */
     const AdExtension = 'AdExtension';
 
-    /** For future use. */
     const AdGroupCriterion = 'AdGroupCriterion';
 }

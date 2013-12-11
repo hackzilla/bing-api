@@ -4,12 +4,12 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the rich ad component keyword performance report data.
- * @link http://msdn.microsoft.com/en-us/library/hh180147(v=msads.80).aspx RichAdComponentPerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/hh180147(v=msads.90).aspx RichAdComponentPerformanceReportFilter Data Object
  */
 final class RichAdComponentPerformanceReportFilter
 {
     /**
-     * The report will include data for only the specified components. For example, you can use the filter to include data for only deep links and video.
+     * The report will include data for only the specified components. For example, you may use the filter to include data for only deep links and video.
      * @var ComponentTypeFilter
      */
     public $ComponentType;

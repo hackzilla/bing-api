@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in an ad group performance report.
- * @link http://msdn.microsoft.com/en-us/library/bb671495(v=msads.80).aspx AdGroupPerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671495(v=msads.90).aspx AdGroupPerformanceReportColumn Value Set
  */
 final class AdGroupPerformanceReportColumn
 {
@@ -16,9 +16,6 @@ final class AdGroupPerformanceReportColumn
 
     /** The report will include a column that contains the time period of each report row. */
     const TimePeriod = 'TimePeriod';
-
-    /** Do not use this column; it is for backwards compatibility only. Instead, use the Language column. */
-    const LanguageAndRegion = 'LanguageAndRegion';
 
     /** The report will include a column that contains the status of the ad group. For possible values, see the AdGroupStatusReportFilter value set. */
     const Status = 'Status';
@@ -35,7 +32,7 @@ final class AdGroupPerformanceReportColumn
     /** The report will include a column that contains the ad group identifier. */
     const AdGroupId = 'AdGroupId';
 
-    /** The report will include a column that contains the currency used by the account that owns the ad group. For possible values, see the CurrencyType value set. */
+    /** The report will include a column that contains the currency used by the account that owns the ad group. For possible values, see Currencies. */
     const CurrencyCode = 'CurrencyCode';
 
     /** The report will include a column that contains the ad distribution medium. For possible values, see the AdDistributionReportFilter value set. */
@@ -91,12 +88,6 @@ final class AdGroupPerformanceReportColumn
 
     /** The report will include a column that contains the percentage of time your ads would have been displayed to users, but were not because your ad ranked too low in the auction. You can improve your competitive position by increasing your bid, improving your quality score, or both. */
     const ImpressionLostToRankPercent = 'ImpressionLostToRankPercent';
-
-    /** No longer supported. The following columns include the data that used to be reported in this column. */
-    const ImpressionLostToRelevancePercent = 'ImpressionLostToRelevancePercent';
-
-    /** No longer supported. */
-    const ImpressionLostToOthersPercent = 'ImpressionLostToOthersPercent';
 
     /** The report will include a column that contains a numeric quality score of the keyword. The score indicates the relevance of your keywords to search queries, and the degree to which your ads are eligible to be displayed in response to these queries. */
     const QualityScore = 'QualityScore';
@@ -155,7 +146,7 @@ final class AdGroupPerformanceReportColumn
     /** The report will include a column that contains the number of phone calls initiated by clicks. */
     const ClickCalls = 'ClickCalls';
 
-    /** The report will include a column that contains the Ptr. */
+    /** The report will include a column that contains the phone-through rate (Ptr). The formula for calculating the Ptr is (PhoneCalls / PhoneImpressions) * 100. */
     const Ptr = 'Ptr';
 
     /** The report will include a column that contains the total cost for completed calls to your tracked number. */

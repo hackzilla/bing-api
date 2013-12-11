@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines a condition that determines whether a product is selected.
- * @link http://msdn.microsoft.com/en-us/library/jj721705(v=msads.80).aspx ProductCondition Data Object
+ * @link http://msdn.microsoft.com/en-us/library/jj721705(v=msads.90).aspx ProductCondition Data Object
  */
 final class ProductCondition
 {

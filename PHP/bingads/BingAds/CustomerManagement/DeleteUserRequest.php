@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Deletes a user.
- * @link http://msdn.microsoft.com/en-us/library/ff728389(v=MSADS.80).aspx DeleteUserRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451276(v=msads.90).aspx DeleteUserRequest Request Object
  */
 final class DeleteUserRequest
 {

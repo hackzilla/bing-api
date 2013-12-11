@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a destination URL performance report request that aggregates the performance data by ad for the specified time period; the data is broken out by destination URL. You could use this report if you used parameter substitution strings in the destination URL to identify ads that are performing well in terms of clicks, conversions, and spend, in addition to those that you may need to adjust to improve the click-through rate.
- * @link http://msdn.microsoft.com/en-us/library/bb671480(v=msads.80).aspx DestinationUrlPerformanceReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671480(v=msads.90).aspx DestinationUrlPerformanceReportRequest Data Object
  */
 final class DestinationUrlPerformanceReportRequest extends ReportRequest
 {

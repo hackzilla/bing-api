@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Gets the negative site URLs of the specified campaigns.
- * @link http://msdn.microsoft.com/en-us/library/hh300114(v=MSADS.80).aspx GetNegativeSitesByCampaignIdsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277525(v=msads.90).aspx GetNegativeSitesByCampaignIdsRequest Request Object
  */
 final class GetNegativeSitesByCampaignIdsRequest
 {

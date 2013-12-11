@@ -3,8 +3,8 @@
 namespace BingAds\AdIntelligence;
 
 /**
- * Suggests possible keywords for the content located at the specified URL.
- * @link http://msdn.microsoft.com/en-us/library/gg670953(v=MSADS.80).aspx SuggestKeywordsForUrlRequest Request Object
+ * Suggests the possible keywords for the content located at the specified URL.
+ * @link http://msdn.microsoft.com/en-us/library/dn336991(v=msads.90).aspx SuggestKeywordsForUrlRequest Request Object
  */
 final class SuggestKeywordsForUrlRequest
 {

@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetAdsByEditorialStatus service operation.
- * @link http://msdn.microsoft.com/en-us/library/dd797118(v=MSADS.80).aspx GetAdsByEditorialStatusResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277538(v=msads.90).aspx GetAdsByEditorialStatusResponse Response Object
  */
 final class GetAdsByEditorialStatusResponse
 {

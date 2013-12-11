@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Signs up a customer with Bing Ads.
- * @link http://msdn.microsoft.com/en-us/library/bb671962(v=MSADS.80).aspx SignupCustomerRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451287(v=msads.90).aspx SignupCustomerRequest Request Object
  */
 final class SignupCustomerRequest
 {
@@ -13,12 +13,6 @@ final class SignupCustomerRequest
      * @var Customer
      */
     public $Customer;
-
-    /**
-     * A User object that specifies the details of the user who will have super-Administrator permissions for the customer.
-     * @var User
-     */
-    public $User;
 
     /**
      * An Account object that specifies the details of the customer's primary account.

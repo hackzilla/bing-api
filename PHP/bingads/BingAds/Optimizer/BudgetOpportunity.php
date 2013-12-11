@@ -3,19 +3,13 @@
 namespace BingAds\Optimizer;
 
 /**
- * Defines an object that contains the suggested budget with estimated clicks and impressions opportunities.
- * @link http://msdn.microsoft.com/en-us/library/hh418054(v=msads.80).aspx BudgetOpportunity Data Object
+ * Defines an object that contains the suggested budget with estimated clicks and impressions opportunities.The budget opportunity is an estimate based on the last 15 days of performance data, and not a prediction or guarantee of future performance.
+ * @link http://msdn.microsoft.com/en-us/library/hh418054(v=msads.90).aspx BudgetOpportunity Data Object
  */
 final class BudgetOpportunity extends Opportunity
 {
     /**
-     * The estimated date by when the campaign's current monthly budget will be depleted.
-     * @var dateTime
-     */
-    public $BudgetDepletionDate;
-
-    /**
-     * The type of budget that the campaign uses. For possible values, see BudgetLimitType.
+     * The type of budget that the campaign uses.
      * @var BudgetLimitType
      */
     public $BudgetType;
@@ -34,13 +28,13 @@ final class BudgetOpportunity extends Opportunity
 
     /**
      * The estimated clicks opportunities corresponding to the suggested budget.
-     * @var int
+     * @var double
      */
     public $IncreaseInClicks;
 
     /**
      * The estimated impressions opportunities corresponding to the suggested budget.
-     * @var int
+     * @var long
      */
     public $IncreaseInImpressions;
 

@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  *  Defines the data columns that you can include in a campaign change history report.
- * @link http://msdn.microsoft.com/en-us/library/hh912353(v=msads.80).aspx SearchCampaignChangeHistoryReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/hh912353(v=msads.90).aspx SearchCampaignChangeHistoryReportColumn Value Set
  */
 final class SearchCampaignChangeHistoryReportColumn
 {

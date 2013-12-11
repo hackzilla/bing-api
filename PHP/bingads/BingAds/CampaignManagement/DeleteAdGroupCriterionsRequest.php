@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Deletes the specified ad group criterions.
- * @link http://msdn.microsoft.com/en-us/library/jj739465(v=MSADS.80).aspx DeleteAdGroupCriterionsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn236302(v=msads.90).aspx DeleteAdGroupCriterionsRequest Request Object
  */
 final class DeleteAdGroupCriterionsRequest
 {
@@ -21,6 +21,7 @@ final class DeleteAdGroupCriterionsRequest
     public $AdGroupCriterionIds;
 
     /**
+     * The identifier of the ad group that owns the criterion to delete.
      * @var long
      */
     public $AdGroupId;

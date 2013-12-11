@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Adds one or more keywords to an ad group.
- * @link http://msdn.microsoft.com/en-us/library/bb671996(v=MSADS.80).aspx AddKeywordsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277513(v=msads.90).aspx AddKeywordsRequest Request Object
  */
 final class AddKeywordsRequest
 {

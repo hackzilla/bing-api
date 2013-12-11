@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines a mobile ad. A mobile ad is displayed to a user when the ad is viewed on a low-fi mobile device.
- * @link http://msdn.microsoft.com/en-us/library/cc512741(v=msads.80).aspx MobileAd Data Object
+ * @link http://msdn.microsoft.com/en-us/library/cc512741(v=msads.90).aspx MobileAd Data Object
  */
 final class MobileAd extends Ad
 {

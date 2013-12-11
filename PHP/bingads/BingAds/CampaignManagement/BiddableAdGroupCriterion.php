@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the conditions that determine whether product ads in the ad group get served. If the conditions are met, the specified bid is used in the auction.
- * @link http://msdn.microsoft.com/en-us/library/jj689538(v=msads.80).aspx BiddableAdGroupCriterion Data Object
+ * @link http://msdn.microsoft.com/en-us/library/jj689538(v=msads.90).aspx BiddableAdGroupCriterion Data Object
  */
 final class BiddableAdGroupCriterion extends AdGroupCriterion
 {

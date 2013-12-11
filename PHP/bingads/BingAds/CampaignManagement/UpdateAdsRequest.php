@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Updates one or more ads within the specified ad group.
- * @link http://msdn.microsoft.com/en-us/library/bb671471(v=MSADS.80).aspx UpdateAdsRequest Request Object
+ * Updates the specified ads within a particular ad group.
+ * @link http://msdn.microsoft.com/en-us/library/dn277531(v=msads.90).aspx UpdateAdsRequest Request Object
  */
 final class UpdateAdsRequest
 {
@@ -15,7 +15,7 @@ final class UpdateAdsRequest
     public $AdGroupId;
 
     /**
-     * A list of ads to update. You can update a maximum of 50 ads.
+     * A list of ads to update. You may update a maximum of 50 ads.
      * @var Ad[]
      */
     public $Ads;

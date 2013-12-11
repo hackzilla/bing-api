@@ -4,7 +4,7 @@ namespace BingAds\Optimizer;
 
 /**
  * This is the base class from which opportunity objects derive. The class contains the key used to identify the opportunity and the date by when the opportunity expires.
- * @link http://msdn.microsoft.com/en-us/library/hh418063(v=msads.80).aspx Opportunity Data Object
+ * @link http://msdn.microsoft.com/en-us/library/hh418063(v=msads.90).aspx Opportunity Data Object
  */
 class Opportunity
 {

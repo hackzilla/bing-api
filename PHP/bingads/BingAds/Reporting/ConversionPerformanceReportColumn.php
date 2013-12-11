@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a conversion performance report.
- * @link http://msdn.microsoft.com/en-us/library/gg262852(v=msads.80).aspx ConversionPerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/gg262852(v=msads.90).aspx ConversionPerformanceReportColumn Value Set
  */
 final class ConversionPerformanceReportColumn
 {

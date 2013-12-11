@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the possible types of criterions.
- * @link http://msdn.microsoft.com/en-us/library/jj689543(v=msads.80).aspx CriterionType Value Set
+ * @link http://msdn.microsoft.com/en-us/library/jj689543(v=msads.90).aspx CriterionType Value Set
  */
 final class CriterionType
 {

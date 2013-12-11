@@ -3,8 +3,8 @@
 namespace BingAds\CustomerManagement;
 
 /**
- * Gets the details of a user, such as name, contact information, and credentials.
- * @link http://msdn.microsoft.com/en-us/library/ff728397(v=MSADS.80).aspx GetUserRequest Request Object
+ * Gets the details of a user.
+ * @link http://msdn.microsoft.com/en-us/library/dn451280(v=msads.90).aspx GetUserRequest Request Object
  */
 final class GetUserRequest
 {

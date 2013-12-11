@@ -5,7 +5,7 @@ namespace BingAds\CustomerBilling;
 final class GetKOHIOInvoicesResponse
 {
     /**
-     * @var Invoice[]
+     * @var BillingDocument[]
      */
-    public $Invoices;
+    public $BillingDocuments;
 }

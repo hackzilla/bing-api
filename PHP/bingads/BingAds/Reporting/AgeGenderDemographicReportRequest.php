@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines an age and gender demographic report request, which shows the estimated performance of an ad group broken out by age and gender demographics. You can use the information to identify whether your ads are targeting the intended genders and age groups, and whether you need to adjust your ads accordingly.
- * @link http://msdn.microsoft.com/en-us/library/bb671917(v=msads.80).aspx AgeGenderDemographicReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671917(v=msads.90).aspx AgeGenderDemographicReportRequest Data Object
  */
 final class AgeGenderDemographicReportRequest extends ReportRequest
 {

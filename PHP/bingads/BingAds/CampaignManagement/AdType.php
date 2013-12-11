@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the type of ad.
- * @link http://msdn.microsoft.com/en-us/library/bb671537(v=msads.80).aspx AdType Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671537(v=msads.90).aspx AdType Value Set
  */
 final class AdType
 {

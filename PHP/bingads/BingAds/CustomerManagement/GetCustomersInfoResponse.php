@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Response object for the GetCustomersInfo service operation.
- * @link http://msdn.microsoft.com/en-us/library/ff728420(v=MSADS.80).aspx GetCustomersInfoResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451282(v=msads.90).aspx GetCustomersInfoResponse Response Object
  */
 final class GetCustomersInfoResponse
 {

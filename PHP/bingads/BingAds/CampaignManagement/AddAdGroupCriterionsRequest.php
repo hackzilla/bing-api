@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Adds one or more ad group criterions that determine whether ads in the ad group get served.
- * @link http://msdn.microsoft.com/en-us/library/jj689547(v=MSADS.80).aspx AddAdGroupCriterionsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277499(v=msads.90).aspx AddAdGroupCriterionsRequest Request Object
  */
 final class AddAdGroupCriterionsRequest
 {

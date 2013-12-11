@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Deletes one or more ad groups from a campaign.
- * @link http://msdn.microsoft.com/en-us/library/bb671757(v=MSADS.80).aspx DeleteAdGroupsRequest Request Object
+ * Deletes one or more ad groups in a specified campaign.
+ * @link http://msdn.microsoft.com/en-us/library/dn236307(v=msads.90).aspx DeleteAdGroupsRequest Request Object
  */
 final class DeleteAdGroupsRequest
 {
@@ -15,7 +15,7 @@ final class DeleteAdGroupsRequest
     public $CampaignId;
 
     /**
-     * A maximum of 1,000 ad group identifiers to delete. After deleting an ad group, you cannot access the object by using any Get operation, such as GetAdGroupsByIds.
+     * A maximum of 1,000 ad group identifiers to delete.
      * @var long[]
      */
     public $AdGroupIds;

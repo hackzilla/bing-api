@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Updates the roles of the specified user.
- * @link http://msdn.microsoft.com/en-us/library/ff728382(v=MSADS.80).aspx UpdateUserRolesRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451284(v=msads.90).aspx UpdateUserRolesRequest Request Object
  */
 final class UpdateUserRolesRequest
 {

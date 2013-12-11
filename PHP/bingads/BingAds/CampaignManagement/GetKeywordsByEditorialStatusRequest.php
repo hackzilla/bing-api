@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets the keywords with the specified editorial review status.
- * @link http://msdn.microsoft.com/en-us/library/dd797091(v=MSADS.80).aspx GetKeywordsByEditorialStatusRequest Request Object
+ * Retrieves the keywords with the specified editorial review status.
+ * @link http://msdn.microsoft.com/en-us/library/dn277501(v=msads.90).aspx GetKeywordsByEditorialStatusRequest Request Object
  */
 final class GetKeywordsByEditorialStatusRequest
 {

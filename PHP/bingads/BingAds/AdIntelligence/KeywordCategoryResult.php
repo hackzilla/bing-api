@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Defines an object that contains the keyword and a list of keyword categories that the keyword might belong to.
- * @link http://msdn.microsoft.com/en-us/library/hh921731(v=msads.80).aspx KeywordCategoryResult Data Object
+ * @link http://msdn.microsoft.com/en-us/library/hh921731(v=msads.90).aspx KeywordCategoryResult Data Object
  */
 final class KeywordCategoryResult
 {

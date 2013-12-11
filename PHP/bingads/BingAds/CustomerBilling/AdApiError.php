@@ -4,7 +4,7 @@ namespace BingAds\CustomerBilling;
 
 /**
  * Defines an error object that contains the details that explain why the service operation failed.
- * @link http://msdn.microsoft.com/en-us/library/dn169104(v=msads.80).aspx AdApiError Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dn169104(v=msads.90).aspx AdApiError Data Object
  */
 final class AdApiError
 {

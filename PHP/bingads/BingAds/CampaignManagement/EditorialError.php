@@ -3,10 +3,10 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Defines an error object that identifies the ad or keyword with the batch of ads or keywords that failed editorial review.
- * @link http://msdn.microsoft.com/en-us/library/cc197190(v=msads.80).aspx EditorialError Data Object
+ * Defines an error object that identifies the entity with the batch of entities that failed editorial review.
+ * @link http://msdn.microsoft.com/en-us/library/cc197190(v=msads.90).aspx EditorialError Data Object
  */
-final class EditorialError
+final class EditorialError extends BatchError
 {
     /**
      * Reserved for future use.
@@ -15,38 +15,26 @@ final class EditorialError
     public $Appealable;
 
     /**
-     * A numeric error code that identifies the error.
-     * @var int
-     */
-    public $Code;
-
-    /**
-     * The text that caused the ad to be disapproved.
+     * The text that caused the entity to be disapproved.
      * @var string
      */
     public $DisapprovedText;
 
     /**
-     * A symbolic string constant that identifies the error. For example, UserIsNotAuthorized.
+     * The element or property of the entity that caused the entity to be disapproved.
      * @var string
      */
-    public $ErrorCode;
-
-    /**
-     * The zero-based index of the ad or keyword within the batch of ads or keywords in the request message that failed.
-     * @var int
-     */
-    public $Index;
-
-    /**
-     * A message that describes the error.
-     * @var string
-     */
-    public $Message;
+    public $Location;
 
     /**
      * The corresponding country or region for the flagged editorial issue.
      * @var string
      */
     public $PublisherCountry;
+
+    /**
+     * A numeric code that identifies the error. For more information, see Bing Ads Editorial Failure Reason Codes.
+     * @var int
+     */
+    public $ReasonCode;
 }

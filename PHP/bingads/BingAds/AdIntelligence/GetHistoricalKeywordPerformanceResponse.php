@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the GetHistoricalKeywordPerformance service operation.
- * @link http://msdn.microsoft.com/en-us/library/gg986835(v=MSADS.80).aspx GetHistoricalKeywordPerformanceResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336996(v=msads.90).aspx GetHistoricalKeywordPerformanceResponse Response Object
  */
 final class GetHistoricalKeywordPerformanceResponse
 {

@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the tactic and channel report data.
- * @link http://msdn.microsoft.com/en-us/library/gg262855(v=msads.80).aspx TacticChannelReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg262855(v=msads.90).aspx TacticChannelReportFilter Data Object
  */
 final class TacticChannelReportFilter
 {

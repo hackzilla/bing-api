@@ -3,11 +3,17 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Defines a country to target and the percentage used to adjust the base bid.
- * @link http://msdn.microsoft.com/en-us/library/bb671882(v=msads.80).aspx CountryTargetBid Data Object
+ * Defines a specific country or region target with bid adjustment.
+ * @link http://msdn.microsoft.com/en-us/library/bb671882(v=msads.90).aspx CountryTargetBid Data Object
  */
 final class CountryTargetBid
 {
+    /**
+     * The percent amount by which to adjust the base bid if the user is in the targeted country/region.
+     * @var int
+     */
+    public $BidAdjustment;
+
     /**
      * The country to target.
      * @var string
@@ -15,8 +21,8 @@ final class CountryTargetBid
     public $CountryAndRegion;
 
     /**
-     * The percent amount by which to adjust the base bid if the user is in the targeted country/region.
-     * @var IncrementalBidPercentage
+     * Set this element to true if you want to exclude the location from targeting.
+     * @var boolean
      */
-    public $IncrementalBid;
+    public $IsExcluded;
 }

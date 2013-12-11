@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets the keywords for an ad group.
- * @link http://msdn.microsoft.com/en-us/library/bb671693(v=MSADS.80).aspx GetKeywordsByAdGroupIdRequest Request Object
+ * Retrieves the keywords for an ad group.
+ * @link http://msdn.microsoft.com/en-us/library/dn236311(v=msads.90).aspx GetKeywordsByAdGroupIdRequest Request Object
  */
 final class GetKeywordsByAdGroupIdRequest
 {

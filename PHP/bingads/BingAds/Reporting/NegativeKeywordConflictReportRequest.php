@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a negative-keyword conflict report that identifies conflicts between your negative keywords and keywords.
- * @link http://msdn.microsoft.com/en-us/library/hh560534(v=msads.80).aspx NegativeKeywordConflictReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/hh560534(v=msads.90).aspx NegativeKeywordConflictReportRequest Data Object
  */
 final class NegativeKeywordConflictReportRequest extends ReportRequest
 {

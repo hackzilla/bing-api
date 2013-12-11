@@ -3,13 +3,13 @@
 namespace BingAds\AdIntelligence;
 
 /**
- * Gets the estimated position in the search results if the specified keywords use the specified bid value. In addition, the operation provides estimates of clicks, average cost per click (CPC), and impressions that the keywords may generate based on the specified bid value.
- * @link http://msdn.microsoft.com/en-us/library/gg712242(v=MSADS.80).aspx GetEstimatedPositionByKeywordIdsRequest Request Object
+ * Gets the estimated position in the search results if the specified bid value had been used for the keywords in the last 7 days. In addition, the operation provides estimates of clicks, average cost per click (CPC), and impressions that the keywords could have generated with the estimated bid.The estimates are based on the last 7 days of performance data, and not a prediction or guarantee of future performance.
+ * @link http://msdn.microsoft.com/en-us/library/dn336989(v=msads.90).aspx GetEstimatedPositionByKeywordIdsRequest Request Object
  */
 final class GetEstimatedPositionByKeywordIdsRequest
 {
     /**
-     * An array of identifiers of the keywords for which you want to get the estimated position in the search results, based on the specified bid value. You can specify a maximum of 100 keywords.
+     * An array of identifiers of the keywords for which you want to get the estimated position in the search results, based on the specified bid value. You may specify a maximum of 1,000 keyword identifiers.
      * @var long[]
      */
     public $KeywordIds;

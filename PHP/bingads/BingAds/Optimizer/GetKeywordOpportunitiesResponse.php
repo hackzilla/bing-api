@@ -4,7 +4,7 @@ namespace BingAds\Optimizer;
 
 /**
  * Response object for the GetKeywordOpportunities service operation.
- * @link http://msdn.microsoft.com/en-us/library/jj649131(v=MSADS.80).aspx GetKeywordOpportunitiesResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn376336(v=msads.90).aspx GetKeywordOpportunitiesResponse Response Object
  */
 final class GetKeywordOpportunitiesResponse
 {

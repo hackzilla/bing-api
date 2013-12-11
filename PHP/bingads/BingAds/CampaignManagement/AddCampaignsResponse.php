@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the AddCampaigns service operation.
- * @link http://msdn.microsoft.com/en-us/library/bb671986(v=MSADS.80).aspx AddCampaignsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277510(v=msads.90).aspx AddCampaignsResponse Response Object
  */
 final class AddCampaignsResponse
 {

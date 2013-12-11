@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Adds the specified media to an account's media library.
- * @link http://msdn.microsoft.com/en-us/library/dn151761(v=MSADS.80).aspx AddMediaRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277518(v=msads.90).aspx AddMediaRequest Request Object
  */
 final class AddMediaRequest
 {

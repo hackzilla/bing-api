@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines the possible status values of an account.
- * @link http://msdn.microsoft.com/en-us/library/ff728394(v=msads.80).aspx AccountLifeCycleStatus Value Set
+ * @link http://msdn.microsoft.com/en-us/library/ff728394(v=msads.90).aspx AccountLifeCycleStatus Value Set
  */
 final class AccountLifeCycleStatus
 {
@@ -17,9 +17,9 @@ final class AccountLifeCycleStatus
     /** The account is inactive, which means that the system deleted the account. */
     const Inactive = 'Inactive';
 
-    /** For internal use only. You can update the account and its campaigns while the account is in the paused state. */
+    /** For internal use only. You may update the account and its campaigns while the account is in the paused state. */
     const Pause = 'Pause';
 
-    /** For internal use only. You cannot update the account and its campaigns while the account is in the pending state. */
+    /** For internal use only. You may update the account and its campaigns while the account is in the pending state. */
     const Pending = 'Pending';
 }

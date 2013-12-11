@@ -4,7 +4,7 @@ namespace BingAds\CustomerBilling;
 
 /**
  * Gets a list of insertion orders for the specified account.
- * @link http://msdn.microsoft.com/en-us/library/ff728372(v=MSADS.80).aspx GetInsertionOrdersByAccountRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451269(v=msads.90).aspx GetInsertionOrdersByAccountRequest Request Object
  */
 final class GetInsertionOrdersByAccountRequest
 {

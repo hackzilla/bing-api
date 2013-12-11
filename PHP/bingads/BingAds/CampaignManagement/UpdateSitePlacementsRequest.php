@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Updates one or more website placement bids in an ad group.
- * @link http://msdn.microsoft.com/en-us/library/dd796868(v=MSADS.80).aspx UpdateSitePlacementsRequest Request Object
+ * Updates one or more website-placement bids in an ad group.
+ * @link http://msdn.microsoft.com/en-us/library/dn236298(v=msads.90).aspx UpdateSitePlacementsRequest Request Object
  */
 final class UpdateSitePlacementsRequest
 {

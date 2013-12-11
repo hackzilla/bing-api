@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Adds one or more website placement bids to an ad group.
- * @link http://msdn.microsoft.com/en-us/library/dd796809(v=MSADS.80).aspx AddSitePlacementsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277523(v=msads.90).aspx AddSitePlacementsRequest Request Object
  */
 final class AddSitePlacementsRequest
 {

@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the aggregation values that you can use for a report.
- * @link http://msdn.microsoft.com/en-us/library/bb672067(v=msads.80).aspx ReportAggregation Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb672067(v=msads.90).aspx ReportAggregation Value Set
  */
 final class ReportAggregation
 {

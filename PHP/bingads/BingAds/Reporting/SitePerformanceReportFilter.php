@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the website performance report data.
- * @link http://msdn.microsoft.com/en-us/library/dd796955(v=msads.80).aspx SitePerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dd796955(v=msads.90).aspx SitePerformanceReportFilter Data Object
  */
 final class SitePerformanceReportFilter
 {
@@ -33,10 +33,10 @@ final class SitePerformanceReportFilter
     public $DeviceType;
 
     /**
-     * The report will include data for only the specified Bing Ads websites where the ads are displayed. For example, you can use the filter to include data for only ads displayed on Bing.com (United States).
-     * @var LanguageAndRegionReportFilter
+     * The report will include data for only websites that used the specified languages. For a list of possible values, see Ad Languages.
+     * @var string[]
      */
-    public $LanguageAndRegion;
+    public $LanguageCode;
 
     /**
      * The report will include data for only the specified websites. The list can contain a maximum of 300 identifiers.

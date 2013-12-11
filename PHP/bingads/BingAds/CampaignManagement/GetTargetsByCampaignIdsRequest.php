@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets detailed information about the targets that are associated with the specified campaigns.
- * @link http://msdn.microsoft.com/en-us/library/dd796993(v=MSADS.80).aspx GetTargetsByCampaignIdsRequest Request Object
+ * Retrieves detailed information about the targets that are associated with the specified campaigns.
+ * @link http://msdn.microsoft.com/en-us/library/dn236300(v=msads.90).aspx GetTargetsByCampaignIdsRequest Request Object
  */
 final class GetTargetsByCampaignIdsRequest
 {

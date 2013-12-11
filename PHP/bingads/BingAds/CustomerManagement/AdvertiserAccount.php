@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines an advertiser account.
- * @link http://msdn.microsoft.com/en-us/library/ee704163(v=msads.80).aspx AdvertiserAccount Data Object
+ * @link http://msdn.microsoft.com/en-us/library/ee704163(v=msads.90).aspx AdvertiserAccount Data Object
  */
 final class AdvertiserAccount extends Account
 {
@@ -36,4 +36,16 @@ final class AdvertiserAccount extends Account
      * For internal use only.
      */
     public $TaxType;
+
+    /**
+     * The identifier of a backup payment instrument to use to settle the account. When signing up a customer, set this element to NULL. The service picks up the payment method identifier associated with the reseller's invoice automatically.
+     * @var long
+     */
+    public $BackUpPaymentInstrumentId;
+
+    /**
+     * A customer specified amount for settling against the selected payment instrument.
+     * @var decimal
+     */
+    public $BillingThresholdAmount;
 }

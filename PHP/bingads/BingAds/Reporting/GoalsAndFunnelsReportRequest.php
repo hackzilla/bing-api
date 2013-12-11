@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a conversion funnel report request, which shows the number of times that users reach the different stages of a conversion funnel. You can use this report to get information about how users behave on your website, from the time they click an ad until they reach the conversion goal. For example, you can use this report to determine at what stage users leave the funnel, so you can improve that stage to increase the chance that the user will continue to the next stage.
- * @link http://msdn.microsoft.com/en-us/library/gg262840(v=msads.80).aspx GoalsAndFunnelsReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg262840(v=msads.90).aspx GoalsAndFunnelsReportRequest Data Object
  */
 final class GoalsAndFunnelsReportRequest extends ReportRequest
 {

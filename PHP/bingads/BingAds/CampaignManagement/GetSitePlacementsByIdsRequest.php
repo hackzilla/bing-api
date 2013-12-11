@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets the specified website placement bids from the specified ad group.
- * @link http://msdn.microsoft.com/en-us/library/dd796904(v=MSADS.80).aspx GetSitePlacementsByIdsRequest Request Object
+ * Retrieves the specified website-placement bids from the specified ad group.
+ * @link http://msdn.microsoft.com/en-us/library/dn277539(v=msads.90).aspx GetSitePlacementsByIdsRequest Request Object
  */
 final class GetSitePlacementsByIdsRequest
 {

@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetAdGroupsByIds service operation.
- * @link http://msdn.microsoft.com/en-us/library/bb671579(v=MSADS.80).aspx GetAdGroupsByIdsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277529(v=msads.90).aspx GetAdGroupsByIdsResponse Response Object
  */
 final class GetAdGroupsByIdsResponse
 {

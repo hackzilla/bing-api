@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Gets the geographical locations of users who have searched for the specified keywords.
- * @link http://msdn.microsoft.com/en-us/library/hh921764(v=MSADS.80).aspx GetKeywordLocationsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336993(v=msads.90).aspx GetKeywordLocationsRequest Request Object
  */
 final class GetKeywordLocationsRequest
 {

@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the size and type of media that the publisher website supports for ad placements.
- * @link http://msdn.microsoft.com/en-us/library/dd796936(v=msads.80).aspx PlacementDetail Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dd796936(v=msads.90).aspx PlacementDetail Data Object
  */
 final class PlacementDetail
 {
@@ -15,7 +15,7 @@ final class PlacementDetail
     public $ImpressionsRangePerDay;
 
     /**
-     * The URL of the publisher's website. This is the same URL that you passed to the GetPlacementDetailsForUrls operation.
+     * The URL of the publisher's website.
      * @var string
      */
     public $PathName;

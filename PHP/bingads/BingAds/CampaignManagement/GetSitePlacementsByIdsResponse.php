@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetSitePlacementsByIds service operation.
- * @link http://msdn.microsoft.com/en-us/library/dd796904(v=MSADS.80).aspx GetSitePlacementsByIdsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277539(v=msads.90).aspx GetSitePlacementsByIdsResponse Response Object
  */
 final class GetSitePlacementsByIdsResponse
 {

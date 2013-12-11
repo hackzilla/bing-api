@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines a product criterion.
- * @link http://msdn.microsoft.com/en-us/library/jj689539(v=msads.80).aspx Product Data Object
+ * @link http://msdn.microsoft.com/en-us/library/jj689539(v=msads.90).aspx Product Data Object
  */
 final class Product extends Criterion
 {

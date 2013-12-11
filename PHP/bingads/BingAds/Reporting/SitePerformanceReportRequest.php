@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a website performance report request that aggregates the performance data by publisher website for a specified time period. If you bid on website placements, you can include details in the report-such as clicks, conversions, and spend-that you can use to identify website placements that are performing well and those that you may want to exclude from your campaign.
- * @link http://msdn.microsoft.com/en-us/library/dd797220(v=msads.80).aspx SitePerformanceReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dd797220(v=msads.90).aspx SitePerformanceReportRequest Data Object
  */
 final class SitePerformanceReportRequest extends ReportRequest
 {

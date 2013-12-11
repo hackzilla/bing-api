@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a publisher usage performance report.
- * @link http://msdn.microsoft.com/en-us/library/dd797159(v=msads.80).aspx PublisherUsagePerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/dd797159(v=msads.90).aspx PublisherUsagePerformanceReportColumn Value Set
  */
 final class PublisherUsagePerformanceReportColumn
 {
@@ -20,9 +20,6 @@ final class PublisherUsagePerformanceReportColumn
     /** The report will include a column that contains the time period of each report row. */
     const TimePeriod = 'TimePeriod';
 
-    /** Do not use this column; it is for backwards compatibility only. Instead, use the Language column. */
-    const LanguageAndRegion = 'LanguageAndRegion';
-
     /** The report will include a column that contains the campaign name. */
     const CampaignName = 'CampaignName';
 
@@ -35,7 +32,7 @@ final class PublisherUsagePerformanceReportColumn
     /** The report will include a column that contains the ad group identifier. */
     const AdGroupId = 'AdGroupId';
 
-    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see the CurrencyType value set. */
+    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see Currencies. */
     const CurrencyCode = 'CurrencyCode';
 
     /** The report will include a column that contains the ad distribution medium. For possible values, see the AdDistributionReportFilter value set. */

@@ -3,8 +3,8 @@
 namespace BingAds\AdIntelligence;
 
 /**
- * Defines an object that contains the key performance index data for the specified keyword.
- * @link http://msdn.microsoft.com/en-us/library/gg986820(v=msads.80).aspx KeywordHistoricalPerformance Data Object
+ * Defines an object that contains the key performance index data for the specified keyword and device.
+ * @link http://msdn.microsoft.com/en-us/library/gg986820(v=msads.90).aspx KeywordHistoricalPerformance Data Object
  */
 final class KeywordHistoricalPerformance
 {
@@ -13,6 +13,12 @@ final class KeywordHistoricalPerformance
      * @var string
      */
     public $Keyword;
+
+    /**
+     * The type of device on which the user entered their search query.
+     * @var string
+     */
+    public $Device;
 
     /**
      * An array of KeywordKPI objects that contains the performance data.

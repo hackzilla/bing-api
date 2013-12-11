@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a call detail report request. There is one row or record in the report for each call made to the tracked number. You can include details in the report such as call duration and phone spend.
- * @link http://msdn.microsoft.com/en-us/library/dn195845(v=msads.80).aspx CallDetailReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dn195845(v=msads.90).aspx CallDetailReportRequest Data Object
  */
 final class CallDetailReportRequest extends ReportRequest
 {

@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetKeywordsByEditorialStatus service operation.
- * @link http://msdn.microsoft.com/en-us/library/dd797091(v=MSADS.80).aspx GetKeywordsByEditorialStatusResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277501(v=msads.90).aspx GetKeywordsByEditorialStatusResponse Response Object
  */
 final class GetKeywordsByEditorialStatusResponse
 {

@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines an ad extension report request that aggregates ad extension performance data by keyword for a specified time period. By including performance details in the report, such as clicks, conversion, and spend, you can identify ad extensions that are performing well, and those that may need to be adjusted to optimize the monthly budget.
- * @link http://msdn.microsoft.com/en-us/library/jj713605(v=msads.80).aspx AdExtensionByKeywordReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/jj713605(v=msads.90).aspx AdExtensionByKeywordReportRequest Data Object
  */
 final class AdExtensionByKeywordReportRequest extends ReportRequest
 {
@@ -21,8 +21,14 @@ final class AdExtensionByKeywordReportRequest extends ReportRequest
     public $Columns;
 
     /**
+     * The criteria to use to filter the report data.
+     * @var AdExtensionByKeywordReportFilter
+     */
+    public $Filter;
+
+    /**
      * The scope of the report. Use this element to limit the report to include data for a combination of accounts, ad groups, and campaigns.
-     * @var AccountThroughCampaignReportScope
+     * @var AccountThroughAdGroupReportScope
      */
     public $Scope;
 

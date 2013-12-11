@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetKeywordsByIds service operation.
- * @link http://msdn.microsoft.com/en-us/library/bb671809(v=MSADS.80).aspx GetKeywordsByIdsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277505(v=msads.90).aspx GetKeywordsByIdsResponse Response Object
  */
 final class GetKeywordsByIdsResponse
 {
@@ -13,4 +13,10 @@ final class GetKeywordsByIdsResponse
      * @var Keyword[]
      */
     public $Keywords;
+
+    /**
+     * An array of BatchError objects that contain details for any keywords that were not successfully retrieved.
+     * @var BatchError[]
+     */
+    public $PartialErrors;
 }

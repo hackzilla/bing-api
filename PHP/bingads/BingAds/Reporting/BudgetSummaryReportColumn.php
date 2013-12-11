@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a budget summary report.
- * @link http://msdn.microsoft.com/en-us/library/bb671925(v=msads.80).aspx BudgetSummaryReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671925(v=msads.90).aspx BudgetSummaryReportColumn Value Set
  */
 final class BudgetSummaryReportColumn
 {
@@ -20,7 +20,7 @@ final class BudgetSummaryReportColumn
     /** The report will include a column that contains the date that this report applies to. */
     const Date = 'Date';
 
-    /** The report will include a column that contains the currency used by the account that owns the campaign. For possible values, see the CurrencyType value set. */
+    /** The report will include a column that contains the currency used by the account that owns the campaign. For possible values, see Currencies. */
     const CurrencyCode = 'CurrencyCode';
 
     /** The report will include a column that contains the budgeted amount of money to spend per month. */

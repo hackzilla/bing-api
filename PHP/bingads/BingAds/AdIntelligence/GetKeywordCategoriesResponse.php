@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the GetKeywordCategories service operation.
- * @link http://msdn.microsoft.com/en-us/library/hh921752(v=MSADS.80).aspx GetKeywordCategoriesResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336992(v=msads.90).aspx GetKeywordCategoriesResponse Response Object
  */
 final class GetKeywordCategoriesResponse
 {

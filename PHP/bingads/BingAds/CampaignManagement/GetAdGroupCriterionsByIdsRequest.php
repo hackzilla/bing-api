@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Gets the specified criterions.
- * @link http://msdn.microsoft.com/en-us/library/jj739471(v=MSADS.80).aspx GetAdGroupCriterionsByIdsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277520(v=msads.90).aspx GetAdGroupCriterionsByIdsRequest Request Object
  */
 final class GetAdGroupCriterionsByIdsRequest
 {

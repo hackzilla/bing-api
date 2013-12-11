@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets details about the sizes and types of media that the specified publisher websites support.
- * @link http://msdn.microsoft.com/en-us/library/dd796802(v=MSADS.80).aspx GetPlacementDetailsForUrlsRequest Request Object
+ * Retrieves placement information for the specified URLs.
+ * @link http://msdn.microsoft.com/en-us/library/dn277530(v=msads.90).aspx GetPlacementDetailsForUrlsRequest Request Object
  */
 final class GetPlacementDetailsForUrlsRequest
 {

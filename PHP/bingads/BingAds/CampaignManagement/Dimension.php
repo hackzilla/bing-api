@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines dimension information for media on a website.
- * @link http://msdn.microsoft.com/en-us/library/dd796881(v=msads.80).aspx Dimension Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dd796881(v=msads.90).aspx Dimension Data Object
  */
 final class Dimension
 {

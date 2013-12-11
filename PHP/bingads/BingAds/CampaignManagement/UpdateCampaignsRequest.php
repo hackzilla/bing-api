@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Updates one or more campaigns of the specified account.
- * @link http://msdn.microsoft.com/en-us/library/bb671561(v=MSADS.80).aspx UpdateCampaignsRequest Request Object
+ * Updates specified campaigns in a specified account.
+ * @link http://msdn.microsoft.com/en-us/library/dn277536(v=msads.90).aspx UpdateCampaignsRequest Request Object
  */
 final class UpdateCampaignsRequest
 {

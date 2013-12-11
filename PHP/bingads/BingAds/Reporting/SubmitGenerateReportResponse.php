@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Response object for the SubmitGenerateReport service operation.
- * @link http://msdn.microsoft.com/en-us/library/jj879321(v=msads.80).aspx SubmitGenerateReportResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/jj879321(v=msads.90).aspx SubmitGenerateReportResponse Response Object
  */
 final class SubmitGenerateReportResponse
 {

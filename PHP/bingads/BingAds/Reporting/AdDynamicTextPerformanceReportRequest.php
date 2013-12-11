@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines an ad dynamic text performance report request that aggregates the performance data by ad for a specified time period. The data is broken out by ad title and destination URL. If you used parameter substitution strings in the ad title, you can use this report to identify the dynamic text strings that are performing well based on metrics (such as clicks, conversions, and spend), as well as those that you should consider changing.
- * @link http://msdn.microsoft.com/en-us/library/bb671950(v=msads.80).aspx AdDynamicTextPerformanceReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671950(v=msads.90).aspx AdDynamicTextPerformanceReportRequest Data Object
  */
 final class AdDynamicTextPerformanceReportRequest extends ReportRequest
 {

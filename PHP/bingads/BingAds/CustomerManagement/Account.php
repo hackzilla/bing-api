@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines an account. This is the base object from which the advertising and publishing accounts derive.
- * @link http://msdn.microsoft.com/en-us/library/bb671588(v=msads.80).aspx Account Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671588(v=msads.90).aspx Account Data Object
  */
 class Account
 {
@@ -49,6 +49,11 @@ class Account
      * @var LanguageType
      */
     public $Language;
+
+    /**
+     * The list of key and value strings for forward compatibility. This element can be used to avoid otherwise breaking changes when new elements are added in future releases.
+     */
+    public $ForwardCompatibilityMap;
 
     /**
      * The identifier of the last user to update the account's information.
@@ -112,6 +117,7 @@ class Account
 
     /**
      * The default time-zone value to use for campaigns in this account.
+     * @var TimeZoneType
      */
     public $TimeZone;
 

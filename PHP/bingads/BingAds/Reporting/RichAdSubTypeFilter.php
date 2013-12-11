@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the rich ad types that you can use to filter the report data. The values are also used as the data values for the RichAdSubType column in the rich ad component performance report.
- * @link http://msdn.microsoft.com/en-us/library/hh180148(v=msads.80).aspx RichAdSubTypeFilter Value Set
+ * @link http://msdn.microsoft.com/en-us/library/hh180148(v=msads.90).aspx RichAdSubTypeFilter Value Set
  */
 final class RichAdSubTypeFilter
 {
@@ -22,4 +22,8 @@ final class RichAdSubTypeFilter
 
     /** An ad that can contain one video, a maximum of two deep links, and an input form. */
     const Rais1Video2Links1Form = 'Rais1Video2Links1Form';
+
+    const Rais4Links = 'Rais4Links';
+
+    const RaisBingShopping = 'RaisBingShopping';
 }

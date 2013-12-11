@@ -3,8 +3,8 @@
 namespace BingAds\AdIntelligence;
 
 /**
- * Defines an object that contains the identifier of a keyword and the estimated search results position for the keyword and match type.
- * @link http://msdn.microsoft.com/en-us/library/gg986824(v=msads.80).aspx KeywordIdEstimatedPosition Data Object
+ * Defines an object that contains the identifier of a keyword and the estimated search results position for the keyword and match type.The estimates are not a prediction or guarantee of future performance.
+ * @link http://msdn.microsoft.com/en-us/library/gg986824(v=msads.90).aspx KeywordIdEstimatedPosition Data Object
  */
 final class KeywordIdEstimatedPosition
 {
@@ -15,7 +15,7 @@ final class KeywordIdEstimatedPosition
     public $KeywordId;
 
     /**
-     * An object that contains the keyword string and position in the search results that the specified maximum bid value could yield for each keyword and match type.
+     * An object that contains the keyword string and estimated position in the search results given the specified maximum bid.
      * @var KeywordEstimatedPosition
      */
     public $KeywordEstimatedPosition;

@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetAdsByIds service operation.
- * @link http://msdn.microsoft.com/en-us/library/bb671475(v=MSADS.80).aspx GetAdsByIdsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn236296(v=msads.90).aspx GetAdsByIdsResponse Response Object
  */
 final class GetAdsByIdsResponse
 {
@@ -13,4 +13,10 @@ final class GetAdsByIdsResponse
      * @var Ad[]
      */
     public $Ads;
+
+    /**
+     * An array of BatchError objects that contain details for any ads that were not successfully retrieved.
+     * @var BatchError[]
+     */
+    public $PartialErrors;
 }

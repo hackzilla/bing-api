@@ -3,26 +3,37 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * This version of AdExtension will no longer be supported beginning early Q3 2013. If you implemented this version, you must migrate your application to use location ad extensions. For information about implementing location ad extensions, see Ad Extensions.
- * @link http://msdn.microsoft.com/en-us/library/hh527708(v=msads.80).aspx AdExtension Data Object
+ * Defines the base object of an ad extension.
+ * @link http://msdn.microsoft.com/en-us/library/hh527708(v=msads.90).aspx AdExtension Data Object
  */
-final class AdExtension
+class AdExtension
 {
     /**
-     * The identifier of the campaign to which the address and phone preferences apply.
+     * The list of key and value strings for forward compatibility. This element can be used to avoid otherwise breaking changes when new elements are added in future releases.
+     */
+    public $ForwardCompatibilityMap;
+
+    /**
+     * The system-generated identifier of the ad extension.
      * @var long
      */
-    public $CampaignId;
+    public $Id;
 
     /**
-     * Determines whether to include the address and phone number of the business in the text ad. To include the business' address and phone number in the text ad, set to true; otherwise, set to false.
-     * @var boolean
+     * The status of the ad extension.
+     * @var AdExtensionStatus
      */
-    public $EnableLocationExtension;
+    public $Status;
 
     /**
-     * The phone number to include in the text ad. If EnableLocationExtension is set to true, this phone number overrides the phone number specified in the business object.
-     * @var PhoneExtension
+     * The type of ad extension. For more information, see Remarks.
+     * @var string
      */
-    public $PhoneExtension;
+    public $Type;
+
+    /**
+     * The number of times the contents of the ad extension has been updated. The version is set to 1 when you add the extension and is incremented each time it's revised.
+     * @var int
+     */
+    public $Version;
 }

@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the ad distribution for the ad group.
- * @link http://msdn.microsoft.com/en-us/library/bb671585(v=msads.80).aspx AdDistribution Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671585(v=msads.90).aspx AdDistribution Value Set
  */
 final class AdDistribution
 {

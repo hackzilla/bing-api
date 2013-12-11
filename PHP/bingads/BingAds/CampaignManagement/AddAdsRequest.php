@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Adds one or more ads to an ad group.
- * @link http://msdn.microsoft.com/en-us/library/bb672045(v=MSADS.80).aspx AddAdsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277506(v=msads.90).aspx AddAdsRequest Request Object
  */
 final class AddAdsRequest
 {

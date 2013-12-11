@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a negative-keyword conflict report.
- * @link http://msdn.microsoft.com/en-us/library/hh560535(v=msads.80).aspx NegativeKeywordConflictReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/hh560535(v=msads.90).aspx NegativeKeywordConflictReportColumn Value Set
  */
 final class NegativeKeywordConflictReportColumn
 {

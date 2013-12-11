@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the SuggestKeywordsForUrl service operation.
- * @link http://msdn.microsoft.com/en-us/library/gg670953(v=MSADS.80).aspx SuggestKeywordsForUrlResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336991(v=msads.90).aspx SuggestKeywordsForUrlResponse Response Object
  */
 final class SuggestKeywordsForUrlResponse
 {

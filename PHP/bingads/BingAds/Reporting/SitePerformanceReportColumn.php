@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a website performance report.
- * @link http://msdn.microsoft.com/en-us/library/dd797115(v=msads.80).aspx SitePerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/dd797115(v=msads.90).aspx SitePerformanceReportColumn Value Set
  */
 final class SitePerformanceReportColumn
 {
@@ -19,9 +19,6 @@ final class SitePerformanceReportColumn
 
     /** The report will include a column that contains the time period of each report row. */
     const TimePeriod = 'TimePeriod';
-
-    /** Do not use this column; it is for backwards compatibility only. Instead, use the Language column. */
-    const LanguageAndRegion = 'LanguageAndRegion';
 
     /** The report will include a column that contains the campaign name. */
     const CampaignName = 'CampaignName';
@@ -50,11 +47,11 @@ final class SitePerformanceReportColumn
     /** The report will include a column that contains the maximum cost-per-click. */
     const CurrentMaxCpc = 'CurrentMaxCpc';
 
-    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see the CurrencyType value set. */
+    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see Currencies. */
     const CurrencyCode = 'CurrencyCode';
 
-    /** The report will include a column that contains the delivered match type. */
-    const MatchType = 'MatchType';
+    /** The report will include a column that contains the delivered match type. For possible values, see the DeliveredMatchTypeReportFilter value set. */
+    const DeliveredMatchType = 'DeliveredMatchType';
 
     /** The report will include a column that contains the ad distribution medium. For possible values, see the AdDistributionReportFilter value set. */
     const AdDistribution = 'AdDistribution';

@@ -3,8 +3,8 @@
 namespace BingAds\AdIntelligence;
 
 /**
- * Gets the historical performance of one or more keywords used in search queries.
- * @link http://msdn.microsoft.com/en-us/library/gg986835(v=MSADS.80).aspx GetHistoricalKeywordPerformanceRequest Request Object
+ * Gets the historical performance of one or more keywords used in search queries. The results are broken out by device type.
+ * @link http://msdn.microsoft.com/en-us/library/dn336996(v=msads.90).aspx GetHistoricalKeywordPerformanceRequest Request Object
  */
 final class GetHistoricalKeywordPerformanceRequest
 {
@@ -27,10 +27,10 @@ final class GetHistoricalKeywordPerformanceRequest
     public $TargetAdPosition;
 
     /**
-     * The match type for which you want to get historical data.
-     * @var MatchType
+     * The match types for which you want to get historical data.
+     * @var MatchType[]
      */
-    public $MatchType;
+    public $MatchTypes;
 
     /**
      * The language in which the keywords are written.
@@ -43,4 +43,10 @@ final class GetHistoricalKeywordPerformanceRequest
      * @var string[]
      */
     public $PublisherCountries;
+
+    /**
+     * A list of one or more of the following device types. The default is Computers.
+     * @var string[]
+     */
+    public $Devices;
 }

@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the conversion performance report data.
- * @link http://msdn.microsoft.com/en-us/library/gg262849(v=msads.80).aspx ConversionPerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg262849(v=msads.90).aspx ConversionPerformanceReportFilter Data Object
  */
 final class ConversionPerformanceReportFilter
 {

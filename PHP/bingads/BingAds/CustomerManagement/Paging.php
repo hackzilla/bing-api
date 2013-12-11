@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines a paging object.
- * @link http://msdn.microsoft.com/en-us/library/dn313267(v=msads.80).aspx Paging Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dn452059(v=msads.90).aspx Paging Data Object
  */
 final class Paging
 {

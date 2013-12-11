@@ -4,7 +4,7 @@ namespace BingAds\Optimizer;
 
 /**
  * Gets a list of keyword suggestions that are relevant to the specified ad group. The keyword suggestion also includes a suggested bid value.
- * @link http://msdn.microsoft.com/en-us/library/jj649131(v=MSADS.80).aspx GetKeywordOpportunitiesRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn376336(v=msads.90).aspx GetKeywordOpportunitiesRequest Request Object
  */
 final class GetKeywordOpportunitiesRequest
 {

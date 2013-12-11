@@ -3,13 +3,13 @@
 namespace BingAds\AdIntelligence;
 
 /**
- * Gets the estimated position in the search results if the specified keywords use the specified bid value. In addition, the operation provides estimates of clicks, average cost per click (CPC), and impressions that the keywords could generate, based on the specified bid value.
- * @link http://msdn.microsoft.com/en-us/library/gg986833(v=MSADS.80).aspx GetEstimatedPositionByKeywordsRequest Request Object
+ * Gets the estimated position in the search results if the specified bid value would be used for the specified keywords. In addition, the operation provides estimates of clicks, average cost per click (CPC), and impressions that the keywords could be generated with the estimated bid.The estimates are not a prediction or guarantee of future performance.
+ * @link http://msdn.microsoft.com/en-us/library/dn337006(v=msads.90).aspx GetEstimatedPositionByKeywordsRequest Request Object
  */
 final class GetEstimatedPositionByKeywordsRequest
 {
     /**
-     * An array of keywords for which you want to get the estimated position in the search results, based on the specified bid value. You can specify a maximum of 1,000 keywords and each keyword can contains a maximum of 100 characters.
+     * An array of keywords for which you want to get the estimated position in the search results, based on the specified bid value. You may specify a maximum of 1,000 keywords and each keyword can contains a maximum of 100 characters.
      * @var string[]
      */
     public $Keywords;
@@ -45,13 +45,13 @@ final class GetEstimatedPositionByKeywordsRequest
     public $MatchTypes;
 
     /**
-     * The identifier of the campaign that owns the ad group specified in AdGroupId. If you do not specify an ad group, the campaign's performance data from the previous seven days is used to help determine how well the keyword might have performed in the context of the campaign.
-     * @var string
+     * The identifier of the campaign that owns the ad group specified in AdGroupId. If you do not specify an ad group, the campaign's performance data is used to help determine how well the keyword might perform in the context of the campaign.
+     * @var long
      */
     public $CampaignId;
 
     /**
-     * @var string
+     * @var long
      */
     public $AdgroupId;
 }

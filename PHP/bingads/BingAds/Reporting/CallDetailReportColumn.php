@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a call detail report.
- * @link http://msdn.microsoft.com/en-us/library/dn195843(v=msads.80).aspx CallDetailReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/dn195843(v=msads.90).aspx CallDetailReportColumn Value Set
  */
 final class CallDetailReportColumn
 {
@@ -16,9 +16,6 @@ final class CallDetailReportColumn
 
     /** The report will include a column that contains the ad group name. */
     const AdGroupName = 'AdGroupName';
-
-    /**  */
-    const TimePeriod = 'TimePeriod';
 
     /** The report will include a column that contains the start time of the call. */
     const StartTime = 'StartTime';

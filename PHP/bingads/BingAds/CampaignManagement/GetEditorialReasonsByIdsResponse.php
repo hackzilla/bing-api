@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetEditorialReasonsByIds service operation.
- * @link http://msdn.microsoft.com/en-us/library/jj631647(v=MSADS.80).aspx GetEditorialReasonsByIdsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn236306(v=msads.90).aspx GetEditorialReasonsByIdsResponse Response Object
  */
 final class GetEditorialReasonsByIdsResponse
 {

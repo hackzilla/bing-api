@@ -4,13 +4,13 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines an object that you can use to determine the component of an ad or keyword that failed editorial review, and the reason for the failure.
- * @link http://msdn.microsoft.com/en-us/library/ff728493(v=msads.80).aspx EditorialReason Data Object
+ * @link http://msdn.microsoft.com/en-us/library/ff728493(v=msads.90).aspx EditorialReason Data Object
  */
 final class EditorialReason
 {
     /**
      * The component of the ad or keyword that failed editorial review.
-     * @var AdComponent
+     * @var string
      */
     public $Location;
 

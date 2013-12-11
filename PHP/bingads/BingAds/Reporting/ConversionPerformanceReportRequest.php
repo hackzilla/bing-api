@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a conversion performance report request that aggregates the conversion performance data at the ad group, campaign, or account level for a specified time period. You can use this report to determine whether campaign performance meets goals for sales and revenue by using the conversion and revenue data, and the return-on-ad spend metric (ROAS) to measure the return on your investment.
- * @link http://msdn.microsoft.com/en-us/library/gg262843(v=msads.80).aspx ConversionPerformanceReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg262843(v=msads.90).aspx ConversionPerformanceReportRequest Data Object
  */
 final class ConversionPerformanceReportRequest extends ReportRequest
 {

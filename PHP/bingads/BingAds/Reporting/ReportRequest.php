@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the base object for all report requests.
- * @link http://msdn.microsoft.com/en-us/library/bb671813(v=msads.80).aspx ReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671813(v=msads.90).aspx ReportRequest Data Object
  */
 class ReportRequest
 {
@@ -27,7 +27,7 @@ class ReportRequest
     public $ReportName;
 
     /**
-     * Determines whether you want the service to generate the report only if all the data is available (has been processed).
+     * Determines whether you want the service to generate the report only if all the data has been processed and is available.
      * @var boolean
      */
     public $ReturnOnlyCompleteData;

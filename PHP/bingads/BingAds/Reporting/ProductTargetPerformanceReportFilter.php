@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the product target performance report data.
- * @link http://msdn.microsoft.com/en-us/library/dn195847(v=msads.80).aspx ProductTargetPerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dn195847(v=msads.90).aspx ProductTargetPerformanceReportFilter Data Object
  */
 final class ProductTargetPerformanceReportFilter
 {
@@ -15,7 +15,7 @@ final class ProductTargetPerformanceReportFilter
     public $DeviceType;
 
     /**
-     * The report will include data for only websites that used the specified languages. For a list of possible values, see LanguageCode Values.
+     * The report will include data for only websites that used the specified languages. For a list of possible values, see Ad Languages.
      * @var string[]
      */
     public $LanguageCode;

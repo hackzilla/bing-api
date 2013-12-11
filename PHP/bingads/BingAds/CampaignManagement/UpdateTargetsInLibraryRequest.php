@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Updates targets in your target library.
- * @link http://msdn.microsoft.com/en-us/library/dd797025(v=MSADS.80).aspx UpdateTargetsInLibraryRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn236301(v=msads.90).aspx UpdateTargetsInLibraryRequest Request Object
  */
 final class UpdateTargetsInLibraryRequest
 {

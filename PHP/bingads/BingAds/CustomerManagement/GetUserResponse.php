@@ -4,12 +4,12 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Response object for the GetUser service operation.
- * @link http://msdn.microsoft.com/en-us/library/ff728397(v=MSADS.80).aspx GetUserResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451280(v=msads.90).aspx GetUserResponse Response Object
  */
 final class GetUserResponse
 {
     /**
-     * A User object that contains information about the user.
+     * A user object that contains information about the user.
      * @var User
      */
     public $User;

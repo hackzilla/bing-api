@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines a user identification object that contains information that identifies a user.
- * @link http://msdn.microsoft.com/en-us/library/ff728438(v=msads.80).aspx UserInfo Data Object
+ * @link http://msdn.microsoft.com/en-us/library/ff728438(v=msads.90).aspx UserInfo Data Object
  */
 final class UserInfo
 {

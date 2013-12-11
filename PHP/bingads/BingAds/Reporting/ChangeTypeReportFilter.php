@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the types of changes to entities by which you can filter the report data. These values are also used as column values in the HowChanged column of the campaign change history report.
- * @link http://msdn.microsoft.com/en-us/library/hh912354(v=msads.80).aspx ChangeTypeReportFilter Value Set
+ * @link http://msdn.microsoft.com/en-us/library/hh912354(v=msads.90).aspx ChangeTypeReportFilter Value Set
  */
 final class ChangeTypeReportFilter
 {

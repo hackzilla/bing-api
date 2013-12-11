@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the types of entities by which you can filter the report data. These values are also used as column values in the ItemChanged column of the campaign change history report.
- * @link http://msdn.microsoft.com/en-us/library/hh912355(v=msads.80).aspx ChangeEntityReportFilter Value Set
+ * @link http://msdn.microsoft.com/en-us/library/hh912355(v=msads.90).aspx ChangeEntityReportFilter Value Set
  */
 final class ChangeEntityReportFilter
 {

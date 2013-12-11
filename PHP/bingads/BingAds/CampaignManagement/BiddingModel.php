@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the bidding model for an ad group.
- * @link http://msdn.microsoft.com/en-us/library/dd796906(v=msads.80).aspx BiddingModel Value Set
+ * @link http://msdn.microsoft.com/en-us/library/dd796906(v=msads.90).aspx BiddingModel Value Set
  */
 final class BiddingModel
 {

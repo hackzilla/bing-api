@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Removes targets from your target library.
- * @link http://msdn.microsoft.com/en-us/library/dd797104(v=MSADS.80).aspx DeleteTargetsFromLibraryRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277507(v=msads.90).aspx DeleteTargetsFromLibraryRequest Request Object
  */
 final class DeleteTargetsFromLibraryRequest
 {

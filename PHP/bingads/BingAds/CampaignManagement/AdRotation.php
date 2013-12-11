@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines an object that specifies the type of ad rotation to apply to the ad group.
- * @link http://msdn.microsoft.com/en-us/library/jj219952(v=msads.80).aspx AdRotation Data Object
+ * @link http://msdn.microsoft.com/en-us/library/jj219952(v=msads.90).aspx AdRotation Data Object
  */
 final class AdRotation
 {
@@ -21,7 +21,7 @@ final class AdRotation
     public $StartDate;
 
     /**
-     * The type of ad rotation to apply to the ad group. For possible values, see AdRotationType.
+     * The type of ad rotation to apply to the ad group..
      * @var AdRotationType
      */
     public $Type;

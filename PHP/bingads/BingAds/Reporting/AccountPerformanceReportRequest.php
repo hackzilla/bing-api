@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines an account performance report request that aggregates the performance data by account for a specified time period. You can include details in the report (such as clicks, conversion, and spend) that you can use to identify accounts that are performing well, and those that may need to be adjusted to optimize the monthly budget.
- * @link http://msdn.microsoft.com/en-us/library/bb671927(v=msads.80).aspx AccountPerformanceReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671927(v=msads.90).aspx AccountPerformanceReportRequest Data Object
  */
 final class AccountPerformanceReportRequest extends ReportRequest
 {

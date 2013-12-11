@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the GetHistoricalSearchCount service operation.
- * @link http://msdn.microsoft.com/en-us/library/gg712217(v=MSADS.80).aspx GetHistoricalSearchCountResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336988(v=msads.90).aspx GetHistoricalSearchCountResponse Response Object
  */
 final class GetHistoricalSearchCountResponse
 {

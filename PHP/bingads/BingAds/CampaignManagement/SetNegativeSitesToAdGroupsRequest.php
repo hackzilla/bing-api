@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Set the negative site URLs of the specified ad groups.
- * @link http://msdn.microsoft.com/en-us/library/hh299885(v=MSADS.80).aspx SetNegativeSitesToAdGroupsRequest Request Object
+ * Sets the negative site URLs of the specified ad groups.
+ * @link http://msdn.microsoft.com/en-us/library/dn236317(v=msads.90).aspx SetNegativeSitesToAdGroupsRequest Request Object
  */
 final class SetNegativeSitesToAdGroupsRequest
 {

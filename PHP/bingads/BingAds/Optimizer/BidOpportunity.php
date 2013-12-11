@@ -3,8 +3,8 @@
 namespace BingAds\Optimizer;
 
 /**
- * Defines an object that contains the suggested bid with estimated clicks and impressions opportunities.
- * @link http://msdn.microsoft.com/en-us/library/hh802384(v=msads.80).aspx BidOpportunity Data Object
+ * Defines an object that contains the suggested bid with estimated clicks and impressions opportunities.The bid opportunity is an estimate based on the last 7 days of performance data, and not a prediction or guarantee of future performance.
+ * @link http://msdn.microsoft.com/en-us/library/hh802384(v=msads.90).aspx BidOpportunity Data Object
  */
 final class BidOpportunity extends Opportunity
 {
@@ -22,7 +22,7 @@ final class BidOpportunity extends Opportunity
 
     /**
      * The estimated clicks opportunities corresponding to the suggested bid.
-     * @var int
+     * @var double
      */
     public $EstimatedIncreaseInClicks;
 
@@ -34,7 +34,7 @@ final class BidOpportunity extends Opportunity
 
     /**
      * The estimated impressions opportunities corresponding to the suggested bid.
-     * @var int
+     * @var long
      */
     public $EstimatedIncreaseInImpressions;
 

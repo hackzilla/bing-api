@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a tactic and channel report request that shows the number of times that users reach the different stages of a conversion funnel, broken out by advertising tactic and channel. You can use this report to get information about which tactic and channel are generating the most revenue and return-on-ad spend.
- * @link http://msdn.microsoft.com/en-us/library/gg262842(v=msads.80).aspx TacticChannelReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg262842(v=msads.90).aspx TacticChannelReportRequest Data Object
  */
 final class TacticChannelReportRequest extends ReportRequest
 {

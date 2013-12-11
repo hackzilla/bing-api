@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the GetEstimatedBidByKeywordIds service operation.
- * @link http://msdn.microsoft.com/en-us/library/gg712218(v=MSADS.80).aspx GetEstimatedBidByKeywordIdsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336995(v=msads.90).aspx GetEstimatedBidByKeywordIdsResponse Response Object
  */
 final class GetEstimatedBidByKeywordIdsResponse
 {

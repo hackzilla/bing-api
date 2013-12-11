@@ -3,10 +3,10 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Available for members of the Location Ad Extension v2 pilot program.
- * @link http://msdn.microsoft.com/en-us/library/jj721600(v=msads.80).aspx LocationAdExtension Data Object
+ * Defines an ad extension that specifies a business' address and phone number to include in a text ad.The LocationAdExtension object derives from the AdExtension object. For a list of inherited elements, see the AdExtension object.
+ * @link http://msdn.microsoft.com/en-us/library/jj721600(v=msads.90).aspx LocationAdExtension Data Object
  */
-final class LocationAdExtension extends AdExtension2
+final class LocationAdExtension extends AdExtension
 {
     /**
      * The business' address.

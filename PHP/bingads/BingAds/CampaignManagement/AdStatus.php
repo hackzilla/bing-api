@@ -4,11 +4,11 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the possible status values of an ad.
- * @link http://msdn.microsoft.com/en-us/library/cc580692(v=msads.80).aspx AdStatus Value Set
+ * @link http://msdn.microsoft.com/en-us/library/cc580692(v=msads.90).aspx AdStatus Value Set
  */
 final class AdStatus
 {
-    /** The ad is undergoing editorial review or has failed editorial review. To determine which, see AdEditorialStatus. */
+    /** The ad is undergoing editorial review or has failed editorial review. To determine the ad editorial status, see AdEditorialStatus. */
     const Inactive = 'Inactive';
 
     /** The ad can be served. */

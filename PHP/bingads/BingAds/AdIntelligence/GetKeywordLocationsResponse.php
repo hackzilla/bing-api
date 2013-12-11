@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the GetKeywordLocations service operation.
- * @link http://msdn.microsoft.com/en-us/library/hh921764(v=MSADS.80).aspx GetKeywordLocationsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336993(v=msads.90).aspx GetKeywordLocationsResponse Response Object
  */
 final class GetKeywordLocationsResponse
 {

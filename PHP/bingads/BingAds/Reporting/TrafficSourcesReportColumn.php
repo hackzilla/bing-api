@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a traffic sources report.
- * @link http://msdn.microsoft.com/en-us/library/gg262847(v=msads.80).aspx TrafficSourcesReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/gg262847(v=msads.90).aspx TrafficSourcesReportColumn Value Set
  */
 final class TrafficSourcesReportColumn
 {

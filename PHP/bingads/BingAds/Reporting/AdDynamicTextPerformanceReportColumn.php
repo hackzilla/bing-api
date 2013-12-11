@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in an ad dynamic text performance report.
- * @link http://msdn.microsoft.com/en-us/library/bb671878(v=msads.80).aspx AdDynamicTextPerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671878(v=msads.90).aspx AdDynamicTextPerformanceReportColumn Value Set
  */
 final class AdDynamicTextPerformanceReportColumn
 {
@@ -16,9 +16,6 @@ final class AdDynamicTextPerformanceReportColumn
 
     /** The report will include a column that contains the time period of each report row. */
     const TimePeriod = 'TimePeriod';
-
-    /** Do not use this column; it is for backwards compatibility only. Instead, use the Language column. */
-    const LanguageAndRegion = 'LanguageAndRegion';
 
     /** The report will include a column that contains the ad group name. */
     const AdGroupName = 'AdGroupName';
@@ -49,7 +46,7 @@ final class AdDynamicTextPerformanceReportColumn
     /** The report will include a column that contains the third dynamic substitution parameter. */
     const Param3 = 'Param3';
 
-    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see the CurrencyType value set. */
+    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see Currencies. */
     const CurrencyCode = 'CurrencyCode';
 
     /** The report will include a column that contains the ad distribution medium. For possible values, see the AdDistributionReportFilter value set. */

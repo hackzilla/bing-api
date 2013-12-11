@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a traffic sources report request, which shows the number of times that users reach the different stages of a conversion funnel, broken out by publisher website. You can use this report to get information about which website generates the most revenue for each account.
- * @link http://msdn.microsoft.com/en-us/library/gg262853(v=msads.80).aspx TrafficSourcesReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg262853(v=msads.90).aspx TrafficSourcesReportRequest Data Object
  */
 final class TrafficSourcesReportRequest extends ReportRequest
 {

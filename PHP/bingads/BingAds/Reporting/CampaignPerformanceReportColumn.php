@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a campaign performance report.
- * @link http://msdn.microsoft.com/en-us/library/bb671614(v=msads.80).aspx CampaignPerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671614(v=msads.90).aspx CampaignPerformanceReportColumn Value Set
  */
 final class CampaignPerformanceReportColumn
 {
@@ -26,7 +26,7 @@ final class CampaignPerformanceReportColumn
     /** The report will include a column that contains the identifier of the campaign. */
     const CampaignId = 'CampaignId';
 
-    /** The report will include a column that contains the currency used by the account that owns the campaign. For possible values, see the CurrencyType value set. */
+    /** The report will include a column that contains the currency used by the account that owns the campaign. For possible values, see Currencies. */
     const CurrencyCode = 'CurrencyCode';
 
     /** The report will include a column that contains the ad distribution medium. For possible values, see the AdDistributionReportFilter value set. */
@@ -94,12 +94,6 @@ final class CampaignPerformanceReportColumn
 
     /** The report will include a column that contains the percentage of time your ads would have been displayed to users, but were not because your ad ranked too low in the auction. You can improve your competitive position by increasing your bid, improving your quality score, or both. */
     const ImpressionLostToRankPercent = 'ImpressionLostToRankPercent';
-
-    /** No longer supported. The following columns include the data that used to be reported in this column. */
-    const ImpressionLostToRelevancePercent = 'ImpressionLostToRelevancePercent';
-
-    /** No longer supported. */
-    const ImpressionLostToOthersPercent = 'ImpressionLostToOthersPercent';
 
     /** The report will include a column that contains a numeric quality score of the keyword. The score indicates the relevance of your keywords to search queries, and the degree to which your ads are eligible to be displayed in response to these queries. */
     const QualityScore = 'QualityScore';

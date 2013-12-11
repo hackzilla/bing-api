@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the AddMedia service operation.
- * @link http://msdn.microsoft.com/en-us/library/dn151761(v=MSADS.80).aspx AddMediaResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277518(v=msads.90).aspx AddMediaResponse Response Object
  */
 final class AddMediaResponse
 {

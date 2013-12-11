@@ -3,17 +3,11 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Defines the geographical location targets.
- * @link http://msdn.microsoft.com/en-us/library/bb671646(v=msads.80).aspx LocationTarget Data Object
+ * Defines an object that can contain different types geographical targets, for example lists of city and state targets.To download an XML document that contains the DMA? location targeting codes, click here, and then right-click on DMAGeoLocations and select Download.
+ * @link http://msdn.microsoft.com/en-us/library/bb671646(v=msads.90).aspx LocationTarget Data Object
  */
 final class LocationTarget
 {
-    /**
-     * The business locations to target.
-     * @var BusinessTarget
-     */
-    public $BusinessTarget;
-
     /**
      * The cities to target.
      * @var CityTarget
@@ -49,10 +43,4 @@ final class LocationTarget
      * @var StateTarget
      */
     public $StateTarget;
-
-    /**
-     * Determines whether to participate in auctions only when the user is in the locations that you specified or to participate when the user is in any location.
-     * @var boolean
-     */
-    public $TargetAllLocations;
 }

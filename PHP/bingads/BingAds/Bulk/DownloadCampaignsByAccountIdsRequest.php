@@ -4,7 +4,7 @@ namespace BingAds\Bulk;
 
 /**
  * Downloads an account's campaign data. You can request all campaign data or only the data that has changed since the last time you downloaded the account.
- * @link http://msdn.microsoft.com/en-us/library/jj885755(v=msads.80).aspx DownloadCampaignsByAccountIdsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/jj885755(v=msads.90).aspx DownloadCampaignsByAccountIdsRequest Request Object
  */
 final class DownloadCampaignsByAccountIdsRequest
 {
@@ -15,16 +15,22 @@ final class DownloadCampaignsByAccountIdsRequest
     public $AccountIds;
 
     /**
-     * The additional entities to include in the download. By default, campaign and ad group data does not include entities such as targets and negative keywords. For a list of additional entities that you can download, see the AdditionalEntity value set.
-     * @var AdditionalEntity
+     * You may include performance data such as spend, in addition to entity data such as campaign settings. The default is EntityData which will exclude performance data from the download.
+     * @var DataScope
      */
-    public $AdditionalEntities;
+    public $DataScope;
 
     /**
-     * The format of the download file. For possible values, see DownloadFileType. The default is XML.
+     * The format of the download file. For possible values, see DownloadFileType. The default is CSV.
      * @var DownloadFileType
      */
     public $DownloadFileType;
+
+    /**
+     * The entities to include in the download. For a list of entities that you can download, see the BulkDownloadEntity value set.
+     * @var BulkDownloadEntity
+     */
+    public $Entities;
 
     /**
      * The last time that you requested a download. The date and time is expressed in Coordinated Universal Time (UTC).
@@ -37,4 +43,10 @@ final class DownloadCampaignsByAccountIdsRequest
      * @var string
      */
     public $LocationTargetVersion;
+
+    /**
+     * Defines the start and end date when downloading performance data.
+     * @var PerformanceStatsDateRange
+     */
+    public $PerformanceStatsDateRange;
 }

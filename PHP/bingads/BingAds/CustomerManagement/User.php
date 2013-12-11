@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines a user.
- * @link http://msdn.microsoft.com/en-us/library/bb671824(v=msads.80).aspx User Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671824(v=msads.90).aspx User Data Object
  */
 final class User
 {
@@ -15,7 +15,7 @@ final class User
     public $ContactInfo;
 
     /**
-     * Determines whether the customer to whom this user belongs is an advertiser or publisher. The default is Advertiser.
+     * Confirms that the customer to whom this user belongs is an advertiser.
      * @var ApplicationType
      */
     public $CustomerAppScope;
@@ -63,7 +63,7 @@ final class User
     public $Name;
 
     /**
-     * The user's sign-in password. The password is case-sensitive, must contain a minimum of six characters and a maximum of 16 characters. The password can contain only alphanumeric characters.
+     * The user's Bing Ads managed sign-in password.
      * @var string
      */
     public $Password;
@@ -81,7 +81,7 @@ final class User
     public $SecretQuestion;
 
     /**
-     * The status of the user. You cannot directly change the status of the user after the user has been added. For more information, see Remarks.
+     * The status of the user.
      * @var UserLifeCycleStatus
      */
     public $UserLifeCycleStatus;
@@ -93,8 +93,14 @@ final class User
     public $TimeStamp;
 
     /**
-     * The user's sign-in user name. The name is case-insensitive and must adhere to the following rules:
+     * The user's Bing Ads managed sign-in user name. The name is case-insensitive.
      * @var string
      */
     public $UserName;
+
+    /**
+     * If true, the user can be authenticated using a Microsoft Account. For more information, see Managing User Authentication with OAuth.
+     * @var boolean
+     */
+    public $IsMigratedToMicrosoftAccount;
 }

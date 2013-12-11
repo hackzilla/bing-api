@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the file formats that you can use for a report.
- * @link http://msdn.microsoft.com/en-us/library/bb671932(v=msads.80).aspx ReportFormat Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671932(v=msads.90).aspx ReportFormat Value Set
  */
 final class ReportFormat
 {

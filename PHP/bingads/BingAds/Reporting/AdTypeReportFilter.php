@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the ad type values that you can use to filter the report data. These values are also used as column values in reports that include the ad type, such as the ad performance report.
- * @link http://msdn.microsoft.com/en-us/library/cc580687(v=msads.80).aspx AdTypeReportFilter Value Set
+ * @link http://msdn.microsoft.com/en-us/library/cc580687(v=msads.90).aspx AdTypeReportFilter Value Set
  */
 final class AdTypeReportFilter
 {

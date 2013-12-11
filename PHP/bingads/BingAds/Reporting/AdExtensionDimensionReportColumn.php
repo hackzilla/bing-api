@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in an ad extension dimension report.
- * @link http://msdn.microsoft.com/en-us/library/jj713609(v=msads.80).aspx AdExtensionDimensionReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/jj713609(v=msads.90).aspx AdExtensionDimensionReportColumn Value Set
  */
 final class AdExtensionDimensionReportColumn
 {

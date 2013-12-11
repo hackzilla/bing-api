@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Gets a count of the number of search queries that included the specified keywords during the specified time period.
- * @link http://msdn.microsoft.com/en-us/library/gg712217(v=MSADS.80).aspx GetHistoricalSearchCountRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336988(v=msads.90).aspx GetHistoricalSearchCountRequest Request Object
  */
 final class GetHistoricalSearchCountRequest
 {
@@ -28,13 +28,25 @@ final class GetHistoricalSearchCountRequest
 
     /**
      * The start date of the date range that identifies the data that you want to use to determine the historical search count.
-     * @var MonthAndYear
+     * @var DayMonthAndYear
      */
-    public $StartMonthAndYear;
+    public $StartDate;
 
     /**
      * The end date of the date range that identifies the data that you want to use to determine the historical search count.
-     * @var MonthAndYear
+     * @var DayMonthAndYear
      */
-    public $EndMonthAndYear;
+    public $EndDate;
+
+    /**
+     * You may specify the time period roll up.
+     * @var string
+     */
+    public $TimePeriodRollup;
+
+    /**
+     * A list of one or more of the following device types. The default is Computers.
+     * @var string[]
+     */
+    public $Devices;
 }

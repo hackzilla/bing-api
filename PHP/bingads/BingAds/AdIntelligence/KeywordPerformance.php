@@ -14,13 +14,7 @@ final class KeywordPerformance
      */
     public $AverageCpc;
 
-    /**
-     * @var Scale
-     */
     public $Impressions;
 
-    /**
-     * @var Scale
-     */
     public $BidDensity;
 }

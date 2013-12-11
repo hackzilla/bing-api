@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the SuggestKeywordsFromExistingKeywords service operation.
- * @link http://msdn.microsoft.com/en-us/library/gg712250(v=MSADS.80).aspx SuggestKeywordsFromExistingKeywordsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336990(v=msads.90).aspx SuggestKeywordsFromExistingKeywordsResponse Response Object
  */
 final class SuggestKeywordsFromExistingKeywordsResponse
 {

@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the traffic sources report data.
- * @link http://msdn.microsoft.com/en-us/library/gg262844(v=msads.80).aspx TrafficSourcesReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg262844(v=msads.90).aspx TrafficSourcesReportFilter Data Object
  */
 final class TrafficSourcesReportFilter
 {

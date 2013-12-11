@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines a website placement bid.
- * @link http://msdn.microsoft.com/en-us/library/dd797248(v=msads.80).aspx SitePlacement Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dd797248(v=msads.90).aspx SitePlacement Data Object
  */
 final class SitePlacement
 {
@@ -21,13 +21,13 @@ final class SitePlacement
     public $Id;
 
     /**
-     * The identifier of the publisher website where you want to display your text ads. To get the identifier, call the GetPlacementDetailsForUrls operation.
+     * The identifier of the publisher website where you want to display your text ads.
      * @var long
      */
     public $PlacementId;
 
     /**
-     * The status of this site placement bid. When you add a site placement bid, its status is Active. To pause or resume the bid, you must call the PauseSitePlacements or ResumeSitePlacements operation.
+     * The status of this site placement bid. When you add a site placement bid, its status is Active by default.
      * @var SitePlacementStatus
      */
     public $Status;

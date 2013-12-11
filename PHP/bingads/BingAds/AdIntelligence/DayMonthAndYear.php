@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Defines an object that you use to specify the start and end dates of a date range.
- * @link http://msdn.microsoft.com/en-us/library/hh921738(v=msads.80).aspx DayMonthAndYear Data Object
+ * @link http://msdn.microsoft.com/en-us/library/hh921738(v=msads.90).aspx DayMonthAndYear Data Object
  */
 final class DayMonthAndYear
 {

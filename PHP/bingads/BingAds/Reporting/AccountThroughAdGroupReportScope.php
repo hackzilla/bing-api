@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the set of accounts, campaigns, and ad groups to include in the report.
- * @link http://msdn.microsoft.com/en-us/library/bb671547(v=msads.80).aspx AccountThroughAdGroupReportScope Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671547(v=msads.90).aspx AccountThroughAdGroupReportScope Data Object
  */
 final class AccountThroughAdGroupReportScope
 {

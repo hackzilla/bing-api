@@ -4,25 +4,25 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the publisher usage performance report data.
- * @link http://msdn.microsoft.com/en-us/library/dd796865(v=msads.80).aspx PublisherUsagePerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dd796865(v=msads.90).aspx PublisherUsagePerformanceReportFilter Data Object
  */
 final class PublisherUsagePerformanceReportFilter
 {
     /**
-     * The report will include data for only the specified distribution medium. For example, you can use the filter to include data for only search ads.
+     * The report will include data for only the specified distribution medium. For example, you may use the filter to include data for only search ads.
      * @var AdDistributionReportFilter
      */
     public $AdDistribution;
 
     /**
-     * Do not use this filter; it is for backwards compatibility only. Instead, use the LanguageCode filter.
-     * @var LanguageAndRegionReportFilter
-     */
-    public $LanguageAndRegion;
-
-    /**
-     * The report will include data for only websites that used the specified languages. For a list of possible values, see LanguageCode Values.
+     * The report will include data for only websites that used the specified languages. For a list of possible values, see Ad Languages.
      * @var string[]
      */
     public $LanguageCode;
+
+    /**
+     * The report will include data for only the specified pricing model. For example, you may use the filter to include data solely for ad groups in a cost per click (Cpc) pricing model.
+     * @var PricingModelReportFilter
+     */
+    public $PricingModel;
 }

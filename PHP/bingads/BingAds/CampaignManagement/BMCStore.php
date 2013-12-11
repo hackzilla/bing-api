@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Defines a Bing Merchant Center store.
- * @link http://msdn.microsoft.com/en-us/library/dn307652(v=msads.80).aspx BMCStore Data Object
+ * Defines a Bing Merchant Center store.Elements of this object are defined in the Bing Merchant Center store, and read-only in Bing Ads. Values of elements do not restrict Bing Ads features. For example, a product ad extension may be added whether the IsActive element is set to true or false.
+ * @link http://msdn.microsoft.com/en-us/library/dn411606(v=msads.90).aspx BMCStore Data Object
  */
 final class BMCStore
 {

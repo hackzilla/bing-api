@@ -3,8 +3,8 @@
 namespace BingAds\Reporting;
 
 /**
- * Defines a product target performance report request that aggregates the performance data by product target for a specified time period. You can include details in the report such as clicks, conversion, and spend that you can use to identify product targets that are performing well, and those that are not.
- * @link http://msdn.microsoft.com/en-us/library/dn195846(v=msads.80).aspx ProductTargetPerformanceReportRequest Data Object
+ * Defines a product target performance report request that aggregates the performance data by product target for a specified time period. You can include details in the report such as clicks, conversion, and spend that you can use to identify product targets that are performing well, and those that are not.To get performance-based reporting for product targets, the corresponding ad group must contain at least one ProductAd object. For more information about creating product ads, see Creating a Product Ad.
+ * @link http://msdn.microsoft.com/en-us/library/dn195846(v=msads.90).aspx ProductTargetPerformanceReportRequest Data Object
  */
 final class ProductTargetPerformanceReportRequest extends ReportRequest
 {

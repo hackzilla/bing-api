@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in an age and gender demographic report.
- * @link http://msdn.microsoft.com/en-us/library/bb671786(v=msads.80).aspx AgeGenderDemographicReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671786(v=msads.90).aspx AgeGenderDemographicReportColumn Value Set
  */
 final class AgeGenderDemographicReportColumn
 {
@@ -16,9 +16,6 @@ final class AgeGenderDemographicReportColumn
 
     /** The report will include a column that contains the time period of each report row. */
     const TimePeriod = 'TimePeriod';
-
-    /** Do not use this column; it is for backwards compatibility only. Instead, use the Language column. */
-    const LanguageAndRegion = 'LanguageAndRegion';
 
     /** The report will include a column that contains the campaign name. */
     const CampaignName = 'CampaignName';

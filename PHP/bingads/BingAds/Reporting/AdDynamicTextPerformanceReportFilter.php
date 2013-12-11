@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the ad dynamic text performance report data.
- * @link http://msdn.microsoft.com/en-us/library/bb672086(v=msads.80).aspx AdDynamicTextPerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb672086(v=msads.90).aspx AdDynamicTextPerformanceReportFilter Data Object
  */
 final class AdDynamicTextPerformanceReportFilter
 {
@@ -27,13 +27,7 @@ final class AdDynamicTextPerformanceReportFilter
     public $DeviceType;
 
     /**
-     * Do not use this filter; it is for backwards compatibility only. Instead, use the LanguageCode filter.
-     * @var LanguageAndRegionReportFilter
-     */
-    public $LanguageAndRegion;
-
-    /**
-     * The report will include data for only websites that used the specified languages. For a list of possible values, see LanguageCode Values.
+     * The report will include data for only websites that used the specified languages. For a list of possible values, see Ad Languages.
      * @var string[]
      */
     public $LanguageCode;

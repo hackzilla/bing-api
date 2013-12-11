@@ -3,8 +3,8 @@
 namespace BingAds\CustomerManagement;
 
 /**
- * Deletes an account.
- * @link http://msdn.microsoft.com/en-us/library/ff728390(v=MSADS.80).aspx DeleteAccountRequest Request Object
+ * Deletes an account.After deleting the account it will be searchable and show as inactive in the Bing Ads web application. You may or may not choose to surface inactive accounts in your application.
+ * @link http://msdn.microsoft.com/en-us/library/dn451272(v=msads.90).aspx DeleteAccountRequest Request Object
  */
 final class DeleteAccountRequest
 {

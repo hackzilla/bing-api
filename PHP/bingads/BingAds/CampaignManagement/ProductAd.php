@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Defines a product ad.
- * @link http://msdn.microsoft.com/en-us/library/jj738612(v=msads.80).aspx ProductAd Data Object
+ * Defines a product ad.Available for members of the Product Ads pilot program.
+ * @link http://msdn.microsoft.com/en-us/library/jj738612(v=msads.90).aspx ProductAd Data Object
  */
 final class ProductAd extends Ad
 {

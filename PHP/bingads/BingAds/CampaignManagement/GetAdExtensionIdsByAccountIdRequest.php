@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets the ad extensions from the specified account's ad extension library.
- * @link http://msdn.microsoft.com/en-us/library/jj923090(v=MSADS.80).aspx GetAdExtensionIdsByAccountIdRequest Request Object
+ * Gets the ad extensions from the account's ad extension library.
+ * @link http://msdn.microsoft.com/en-us/library/dn277509(v=msads.90).aspx GetAdExtensionIdsByAccountIdRequest Request Object
  */
 final class GetAdExtensionIdsByAccountIdRequest
 {
@@ -21,8 +21,8 @@ final class GetAdExtensionIdsByAccountIdRequest
     public $AdExtensionType;
 
     /**
-     * A value that filters the extensions based on whether they're associated with a campaign. For possible values, see AssociationFilter.
-     * @var AssociationFilter
+     * A value that filters the extensions based on whether they're associated with a specific entity type. For possible values, see AssociationType.
+     * @var AssociationType
      */
-    public $AssociationFilter;
+    public $AssociationType;
 }

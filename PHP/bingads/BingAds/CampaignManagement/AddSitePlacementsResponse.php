@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the AddSitePlacements service operation.
- * @link http://msdn.microsoft.com/en-us/library/dd796809(v=MSADS.80).aspx AddSitePlacementsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277523(v=msads.90).aspx AddSitePlacementsResponse Response Object
  */
 final class AddSitePlacementsResponse
 {

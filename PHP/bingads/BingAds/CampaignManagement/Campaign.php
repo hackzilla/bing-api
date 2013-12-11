@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines a campaign.
- * @link http://msdn.microsoft.com/en-us/library/bb672054(v=msads.80).aspx Campaign Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb672054(v=msads.90).aspx Campaign Data Object
  */
 final class Campaign
 {
@@ -39,6 +39,11 @@ final class Campaign
     public $Description;
 
     /**
+     * The list of key and value strings for forward compatibility. This element can be used to avoid otherwise breaking changes when new elements are added in future releases.
+     */
+    public $ForwardCompatibilityMap;
+
+    /**
      * The system-generated identifier of the campaign.
      * @var long
      */
@@ -57,13 +62,13 @@ final class Campaign
     public $Name;
 
     /**
-     * The status of the campaign. You cannot change the status field directly. If you want to pause or resume the campaign, you must call the PauseCampaigns or ResumeCampaigns operation.
+     * The status of the campaign.
      * @var CampaignStatus
      */
     public $Status;
 
     /**
-     * The time zone where the campaign operates. For possible values, see Campaign Time Zone Values.
+     * The time zone where the campaign operates. For possible values, see Time Zones.
      * @var string
      */
     public $TimeZone;

@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets detailed information about the targets that are associated with the specified ad groups.
- * @link http://msdn.microsoft.com/en-us/library/dd797233(v=MSADS.80).aspx GetTargetsByAdGroupIdsRequest Request Object
+ * Retrieves detailed information about the targets that are associated with the specified ad groups.
+ * @link http://msdn.microsoft.com/en-us/library/dn236297(v=msads.90).aspx GetTargetsByAdGroupIdsRequest Request Object
  */
 final class GetTargetsByAdGroupIdsRequest
 {

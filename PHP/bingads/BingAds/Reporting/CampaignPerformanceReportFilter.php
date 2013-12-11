@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the campaign performance report data.
- * @link http://msdn.microsoft.com/en-us/library/bb671808(v=msads.80).aspx CampaignPerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671808(v=msads.90).aspx CampaignPerformanceReportFilter Data Object
  */
 final class CampaignPerformanceReportFilter
 {
@@ -15,7 +15,13 @@ final class CampaignPerformanceReportFilter
     public $AdDistribution;
 
     /**
-     * The report will include data for only the specified type of devices on which the ad is displayed. For example, you can use the filter to include data for only text ads displayed on smartphones.
+     * The report will include data where the ad is displayed on the specified device operating systems. For example, you may use the filter to include data for only ads displayed on Windows devices.
+     * @var DeviceOSReportFilter
+     */
+    public $DeviceOS;
+
+    /**
+     * The report will include data where the ad is displayed on the specified device types. For example, you may use the filter to include data for only ads displayed on smartphones.
      * @var DeviceTypeReportFilter
      */
     public $DeviceType;

@@ -4,12 +4,12 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Updates the details of the specified user.
- * @link http://msdn.microsoft.com/en-us/library/ff728432(v=MSADS.80).aspx UpdateUserRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451277(v=msads.90).aspx UpdateUserRequest Request Object
  */
 final class UpdateUserRequest
 {
     /**
-     * The User object that contains the updated user information.
+     * The user object that contains the updated user information.
      * @var User
      */
     public $User;

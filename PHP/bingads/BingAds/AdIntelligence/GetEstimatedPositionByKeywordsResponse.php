@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the GetEstimatedPositionByKeywords service operation.
- * @link http://msdn.microsoft.com/en-us/library/gg986833(v=MSADS.80).aspx GetEstimatedPositionByKeywordsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn337006(v=msads.90).aspx GetEstimatedPositionByKeywordsResponse Response Object
  */
 final class GetEstimatedPositionByKeywordsResponse
 {

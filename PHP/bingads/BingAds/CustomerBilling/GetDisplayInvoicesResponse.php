@@ -5,7 +5,7 @@ namespace BingAds\CustomerBilling;
 final class GetDisplayInvoicesResponse
 {
     /**
-     * @var Invoice[]
+     * @var BillingDocument[]
      */
-    public $Invoices;
+    public $BillingDocuments;
 }

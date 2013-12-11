@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets the specified ads from the specified ad group.
- * @link http://msdn.microsoft.com/en-us/library/bb671475(v=MSADS.80).aspx GetAdsByIdsRequest Request Object
+ * Retrieves the specified ads from the specified ad group.
+ * @link http://msdn.microsoft.com/en-us/library/dn236296(v=msads.90).aspx GetAdsByIdsRequest Request Object
  */
 final class GetAdsByIdsRequest
 {

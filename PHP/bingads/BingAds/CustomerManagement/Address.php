@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines a postal address.
- * @link http://msdn.microsoft.com/en-us/library/bb671505(v=msads.80).aspx Address Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671505(v=msads.90).aspx Address Data Object
  */
 final class Address
 {
@@ -15,7 +15,7 @@ final class Address
     public $City;
 
     /**
-     * The country/region code. For possible values, see Country Codes.
+     * The country/region code. For possible values, see Geographical Location Codes.
      * @var string
      */
     public $CountryCode;

@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets the specified campaigns from the specified account.
- * @link http://msdn.microsoft.com/en-us/library/bb671550(v=MSADS.80).aspx GetCampaignsByIdsRequest Request Object
+ * Retrieves the specified campaigns from the specified account.
+ * @link http://msdn.microsoft.com/en-us/library/dn236303(v=msads.90).aspx GetCampaignsByIdsRequest Request Object
  */
 final class GetCampaignsByIdsRequest
 {

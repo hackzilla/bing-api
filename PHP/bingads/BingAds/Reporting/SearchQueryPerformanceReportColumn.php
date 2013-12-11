@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a search query performance report.
- * @link http://msdn.microsoft.com/en-us/library/ee703958(v=msads.80).aspx SearchQueryPerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/ee703958(v=msads.90).aspx SearchQueryPerformanceReportColumn Value Set
  */
 final class SearchQueryPerformanceReportColumn
 {
@@ -44,10 +44,7 @@ final class SearchQueryPerformanceReportColumn
     const BidMatchType = 'BidMatchType';
 
     /** The report will include a column that contains the delivered match type. For possible values, see the DeliveredMatchTypeReportFilter value set. */
-    const MatchType = 'MatchType';
-
-    /** Do not use this column; it is for backwards compatibility only. Instead, use the Language column. */
-    const LanguageAndRegion = 'LanguageAndRegion';
+    const DeliveredMatchType = 'DeliveredMatchType';
 
     /** The report will include a column that contains the status of the campaign. */
     const CampaignStatus = 'CampaignStatus';

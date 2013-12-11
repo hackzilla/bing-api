@@ -4,12 +4,12 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Defines a key performance index object for a keyword. The object contains the historical performance statistics of the keyword for the specified match type and ad position.
- * @link http://msdn.microsoft.com/en-us/library/gg986837(v=msads.80).aspx KeywordKPI Data Object
+ * @link http://msdn.microsoft.com/en-us/library/gg986837(v=msads.90).aspx KeywordKPI Data Object
  */
 final class KeywordKPI
 {
     /**
-     * The match type that you specified in the request. For possible values, see the MatchType value set.
+     * The match type that you specified in the request.
      * @var MatchType
      */
     public $MatchType;
@@ -28,7 +28,7 @@ final class KeywordKPI
 
     /**
      * The number of impressions that the keyword and match type generated during the specified time interval.
-     * @var int
+     * @var long
      */
     public $Impressions;
 

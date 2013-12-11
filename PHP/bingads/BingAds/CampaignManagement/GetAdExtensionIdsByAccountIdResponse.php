@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetAdExtensionIdsByAccountId service operation.
- * @link http://msdn.microsoft.com/en-us/library/jj923090(v=MSADS.80).aspx GetAdExtensionIdsByAccountIdResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277509(v=msads.90).aspx GetAdExtensionIdsByAccountIdResponse Response Object
  */
 final class GetAdExtensionIdsByAccountIdResponse
 {

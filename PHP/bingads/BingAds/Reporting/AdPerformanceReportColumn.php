@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in an ad performance report.
- * @link http://msdn.microsoft.com/en-us/library/bb671923(v=msads.80).aspx AdPerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/bb671923(v=msads.90).aspx AdPerformanceReportColumn Value Set
  */
 final class AdPerformanceReportColumn
 {
@@ -16,9 +16,6 @@ final class AdPerformanceReportColumn
 
     /** The report will include a column that contains the specified time period of each report row. */
     const TimePeriod = 'TimePeriod';
-
-    /** Do not use this column; it is for backwards compatibility only. Instead, use the Language column. */
-    const LanguageAndRegion = 'LanguageAndRegion';
 
     /** The report will include a column that contains the campaign name. */
     const CampaignName = 'CampaignName';
@@ -41,7 +38,7 @@ final class AdPerformanceReportColumn
     /** The report will include a column that contains the ad type. For possible values, see the AdTypeReportFilter value set. */
     const AdType = 'AdType';
 
-    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see the CurrencyType value set. */
+    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see Currencies. */
     const CurrencyCode = 'CurrencyCode';
 
     /** The report will include a column that contains the ad distribution medium. For possible values, see the AdDistributionReportFilter value set. */
@@ -103,6 +100,9 @@ final class AdPerformanceReportColumn
 
     /** Reserved for internal use. */
     const BusinessCategoryName = 'BusinessCategoryName';
+
+    /** The report will include a column that contains the current ad status. */
+    const AdStatus = 'AdStatus';
 
     /** The report will include a column that contains the network of the ad group that owns the ad. For possible values, see the Network value set. */
     const Network = 'Network';

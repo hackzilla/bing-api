@@ -3,8 +3,8 @@
 namespace BingAds\Optimizer;
 
 /**
- * Applies the recommended opportunities that the get opportunities operations returned, for example the GetBidOpportunities operation.
- * @link http://msdn.microsoft.com/en-us/library/hh802390(v=MSADS.80).aspx ApplyOpportunitiesRequest Request Object
+ * Applies the recommended opportunities that the get opportunities operations returned for example, the GetBidOpportunities operation.
+ * @link http://msdn.microsoft.com/en-us/library/dn376334(v=msads.90).aspx ApplyOpportunitiesRequest Request Object
  */
 final class ApplyOpportunitiesRequest
 {

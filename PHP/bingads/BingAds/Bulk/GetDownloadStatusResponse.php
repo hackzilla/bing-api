@@ -4,7 +4,7 @@ namespace BingAds\Bulk;
 
 /**
  * Response object for the GetDownloadStatus service operation.
- * @link http://msdn.microsoft.com/en-us/library/jj885754(v=msads.80).aspx GetDownloadStatusResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/jj885754(v=msads.90).aspx GetDownloadStatusResponse Response Object
  */
 final class GetDownloadStatusResponse
 {
@@ -15,8 +15,8 @@ final class GetDownloadStatusResponse
     public $DownloadUrl;
 
     /**
-     * The status of the download. For possible values, see the DownloadStatus value set.
-     * @var DownloadStatus
+     * The status of the download. The possible values are as follows.
+     * @var string
      */
-    public $Status;
+    public $RequestStatus;
 }

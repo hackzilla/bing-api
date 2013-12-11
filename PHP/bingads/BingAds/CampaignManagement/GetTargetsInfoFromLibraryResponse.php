@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetTargetsInfoFromLibrary service operation.
- * @link http://msdn.microsoft.com/en-us/library/dd797147(v=MSADS.80).aspx GetTargetsInfoFromLibraryResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn236308(v=msads.90).aspx GetTargetsInfoFromLibraryResponse Response Object
  */
 final class GetTargetsInfoFromLibraryResponse
 {

@@ -4,7 +4,7 @@ namespace BingAds\CustomerBilling;
 
 /**
  * Defines an insertion order.
- * @link http://msdn.microsoft.com/en-us/library/ff728378(v=msads.80).aspx InsertionOrder Data Object
+ * @link http://msdn.microsoft.com/en-us/library/ff728378(v=msads.90).aspx InsertionOrder Data Object
  */
 final class InsertionOrder
 {

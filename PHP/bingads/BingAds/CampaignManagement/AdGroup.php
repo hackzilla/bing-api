@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines an ad group.
- * @link http://msdn.microsoft.com/en-us/library/bb671956(v=msads.80).aspx AdGroup Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671956(v=msads.90).aspx AdGroup Data Object
  */
 final class AdGroup
 {
@@ -15,13 +15,19 @@ final class AdGroup
     public $AdDistribution;
 
     /**
+     * Determines the ad rotation type.
+     * @var AdRotation
+     */
+    public $AdRotation;
+
+    /**
      * Determines whether the ad group bids on keyword matches or site placement matches. The default is Keyword.
      * @var BiddingModel
      */
     public $BiddingModel;
 
     /**
-     * The bid to use when the user's query and the ad group's keywords match by using a broad match comparison. A broad match results when words in the keyword are present in the user's query; however, the order of the words can vary. For more information, see Match Type and Bid Values.
+     * The bid to use when the user's query and the ad group's keywords match by using a broad match comparison. A broad match results when words in the keyword are present in the user's query; however, the order of the words can vary.
      * @var Bid
      */
     public $BroadMatchBid;
@@ -45,13 +51,18 @@ final class AdGroup
     public $ExactMatchBid;
 
     /**
+     * The list of key and value strings for forward compatibility. This element can be used to avoid otherwise breaking changes when new elements are added in future releases.
+     */
+    public $ForwardCompatibilityMap;
+
+    /**
      * The system generated identifier of the ad group.
      * @var long
      */
     public $Id;
 
     /**
-     * The language of the ads and keywords in the ad group. For possible values, see Language Values.
+     * The language of the ads and keywords in the ad group. For possible values, see Ad Copy Languages.
      * @var string
      */
     public $Language;
@@ -75,16 +86,10 @@ final class AdGroup
     public $PhraseMatchBid;
 
     /**
-     * You can specify a pricing model based on cost-per-click (CPC) or cost-per-thousand impressions (CPM).
+     * You can specify a pricing model based on cost per click (CPC) or cost per 1000 impressions (CPM).
      * @var PricingModel
      */
     public $PricingModel;
-
-    /**
-     * Not supported.
-     * @var PublisherCountry[]
-     */
-    public $PublisherCountries;
 
     /**
      * The date that the ads in the ad group can begin serving; otherwise, the service can begin serving the ads in the ad group the day that the ad group becomes active.

@@ -4,7 +4,7 @@ namespace BingAds\Bulk;
 
 /**
  * Response object for the DownloadCampaignsByCampaignIds service operation.
- * @link http://msdn.microsoft.com/en-us/library/jj885756(v=msads.80).aspx DownloadCampaignsByCampaignIdsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/jj885756(v=msads.90).aspx DownloadCampaignsByCampaignIdsResponse Response Object
  */
 final class DownloadCampaignsByCampaignIdsResponse
 {

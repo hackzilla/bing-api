@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Defines the types of targeting that you can use to target your ads to users. For example, you can target your ads based on the geographic location of the user, the day of the week, or the time of the day.
- * @link http://msdn.microsoft.com/en-us/library/bb671789(v=msads.80).aspx Target Data Object
+ * Defines the types of targeting that you can use to target your ads to users. For example, you can target your ads based on the geographic location of the user, the day of the week, or the time of the day.The target object must specify at least one target type.
+ * @link http://msdn.microsoft.com/en-us/library/bb671789(v=msads.90).aspx Target Data Object
  */
 final class Target
 {
@@ -21,10 +21,15 @@ final class Target
     public $Day;
 
     /**
-     * Targets text ads to serve on smartphones, computers, or both. You should not use this element to specify device targeting. Instead you should use the UpdateDeviceOSTargets operation. For details on device targeting, see Target Devices and Operating Systems.
-     * @var DeviceTarget
+     * Targets ads to serve on specific devices.
+     * @var DeviceOSTarget
      */
-    public $Device;
+    public $DeviceOS;
+
+    /**
+     * The list of key and value strings for forward compatibility. This element can be used to avoid otherwise breaking changes when new elements are added in future releases.
+     */
+    public $ForwardCompatibilityMap;
 
     /**
      * Targets ads to men only or women only.

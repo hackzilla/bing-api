@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Defines the possible positions of an ad in the search results or on a content-based webpage.
- * @link http://msdn.microsoft.com/en-us/library/gg712236(v=msads.80).aspx AdPosition Value Set
+ * @link http://msdn.microsoft.com/en-us/library/gg712236(v=msads.90).aspx AdPosition Value Set
  */
 final class AdPosition
 {
@@ -53,6 +53,6 @@ final class AdPosition
     /** The tenth ad to appear on the right side of the first search results page. */
     const SideBar10 = 'SideBar10';
 
-    /** Aggregates the data for all supported positions. You can specify this position for the following operations. */
+    /** Aggregates the data for all supported positions. */
     const Aggregate = 'Aggregate';
 }

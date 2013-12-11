@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a rich ad component performance report.
- * @link http://msdn.microsoft.com/en-us/library/hh180149(v=msads.80).aspx RichAdComponentPerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/hh180149(v=msads.90).aspx RichAdComponentPerformanceReportColumn Value Set
  */
 final class RichAdComponentPerformanceReportColumn
 {
@@ -43,9 +43,6 @@ final class RichAdComponentPerformanceReportColumn
 
     /** The report will include a column that contains the destination URL as input. */
     const ComponentDestinationURL = 'ComponentDestinationURL';
-
-    /** This column is no longer supported. Do not include it in your report. */
-    const ComponentPosition = 'ComponentPosition';
 
     /** The report will include a column that contains the number of billable clicks of a rich ad. The count includes the first click of a component of the ad and subsequent clicks on the impression if the user waits a short, system-defined interval between clicks. If a subsequent click occurs within the interval, the click may be included in the ComponentNonBillableClicks column (see ComponentNonBillableClicks for more information). */
     const ComponentClicks = 'ComponentClicks';

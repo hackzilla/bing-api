@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Gets the keyword categories to which the specified keywords belong.
- * @link http://msdn.microsoft.com/en-us/library/hh921752(v=MSADS.80).aspx GetKeywordCategoriesRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336992(v=msads.90).aspx GetKeywordCategoriesRequest Request Object
  */
 final class GetKeywordCategoriesRequest
 {
@@ -21,7 +21,7 @@ final class GetKeywordCategoriesRequest
     public $Language;
 
     /**
-     * The country code of the country/region to use as the source of the category data. You must set this element to US.
+     * The country code of the country/region to use as the source of the category data.
      * @var string
      */
     public $PublisherCountry;

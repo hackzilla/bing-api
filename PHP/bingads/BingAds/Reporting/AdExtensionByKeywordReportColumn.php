@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in an ad extension by keyword report.
- * @link http://msdn.microsoft.com/en-us/library/jj713610(v=msads.80).aspx AdExtensionByKeywordReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/jj713610(v=msads.90).aspx AdExtensionByKeywordReportColumn Value Set
  */
 final class AdExtensionByKeywordReportColumn
 {

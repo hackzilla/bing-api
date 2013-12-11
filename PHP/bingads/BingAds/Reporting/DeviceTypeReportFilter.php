@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the device type values that you can use to filter the report data. These values are also used as column values in reports that include device type information, such as the ad group performance report.
- * @link http://msdn.microsoft.com/en-us/library/gg262850(v=msads.80).aspx DeviceTypeReportFilter Value Set
+ * @link http://msdn.microsoft.com/en-us/library/gg262850(v=msads.90).aspx DeviceTypeReportFilter Value Set
  */
 final class DeviceTypeReportFilter
 {

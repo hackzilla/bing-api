@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a publisher usage performance report request that aggregates the performance data by publisher website for a specified time period. You can include details in the report (such as clicks, conversions, and spend) that you can use to identify websites that are performing well, and those that you may want to exclude from your campaign.
- * @link http://msdn.microsoft.com/en-us/library/dd797229(v=msads.80).aspx PublisherUsagePerformanceReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/dd797229(v=msads.90).aspx PublisherUsagePerformanceReportRequest Data Object
  */
 final class PublisherUsagePerformanceReportRequest extends ReportRequest
 {

@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines a customer identification object that contains information that identifies a customer.
- * @link http://msdn.microsoft.com/en-us/library/ff728384(v=msads.80).aspx CustomerInfo Data Object
+ * @link http://msdn.microsoft.com/en-us/library/ff728384(v=msads.90).aspx CustomerInfo Data Object
  */
 final class CustomerInfo
 {

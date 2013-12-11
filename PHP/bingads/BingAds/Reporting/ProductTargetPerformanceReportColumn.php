@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a product target performance report.
- * @link http://msdn.microsoft.com/en-us/library/dn195844(v=msads.80).aspx ProductTargetPerformanceReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/dn195844(v=msads.90).aspx ProductTargetPerformanceReportColumn Value Set
  */
 final class ProductTargetPerformanceReportColumn
 {
@@ -44,7 +44,7 @@ final class ProductTargetPerformanceReportColumn
     /** The report will include a column that contains the maximum cost-per-click. */
     const CurrentMaxCpc = 'CurrentMaxCpc';
 
-    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see the CurrencyType value set. */
+    /** The report will include a column that contains the currency used by the account to which the ad belongs. For possible values, see Currencies. */
     const CurrencyCode = 'CurrencyCode';
 
     /** The report will include a column that contains the number of times that the ad was displayed. */

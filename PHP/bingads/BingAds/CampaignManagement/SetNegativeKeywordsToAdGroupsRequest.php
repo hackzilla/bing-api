@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Sets the negative keywords of the specified ad groups.
- * @link http://msdn.microsoft.com/en-us/library/ee703986(v=MSADS.80).aspx SetNegativeKeywordsToAdGroupsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn236312(v=msads.90).aspx SetNegativeKeywordsToAdGroupsRequest Request Object
  */
 final class SetNegativeKeywordsToAdGroupsRequest
 {

@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a tactic channel report.
- * @link http://msdn.microsoft.com/en-us/library/gg262851(v=msads.80).aspx TacticChannelReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/gg262851(v=msads.90).aspx TacticChannelReportColumn Value Set
  */
 final class TacticChannelReportColumn
 {

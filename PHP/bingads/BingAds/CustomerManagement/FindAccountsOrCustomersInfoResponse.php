@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Response object for the FindAccountsOrCustomersInfo service operation.
- * @link http://msdn.microsoft.com/en-us/library/hh420974(v=MSADS.80).aspx FindAccountsOrCustomersInfoResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451281(v=msads.90).aspx FindAccountsOrCustomersInfoResponse Response Object
  */
 final class FindAccountsOrCustomersInfoResponse
 {

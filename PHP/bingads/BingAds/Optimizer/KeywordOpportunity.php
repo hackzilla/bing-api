@@ -4,7 +4,7 @@ namespace BingAds\Optimizer;
 
 /**
  * Defines an object that contains a suggested keyword and bid value.
- * @link http://msdn.microsoft.com/en-us/library/jj649133(v=msads.80).aspx KeywordOpportunity Data Object
+ * @link http://msdn.microsoft.com/en-us/library/jj649133(v=msads.90).aspx KeywordOpportunity Data Object
  */
 final class KeywordOpportunity extends Opportunity
 {

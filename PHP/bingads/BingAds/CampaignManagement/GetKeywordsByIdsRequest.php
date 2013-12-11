@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets the specified keywords.
- * @link http://msdn.microsoft.com/en-us/library/bb671809(v=MSADS.80).aspx GetKeywordsByIdsRequest Request Object
+ * Retrieves the specified keywords.
+ * @link http://msdn.microsoft.com/en-us/library/dn277505(v=msads.90).aspx GetKeywordsByIdsRequest Request Object
  */
 final class GetKeywordsByIdsRequest
 {

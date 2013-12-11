@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Defines the possible financial status values of a customer.
- * @link http://msdn.microsoft.com/en-us/library/ff728435(v=msads.80).aspx CustomerFinancialStatus Value Set
+ * @link http://msdn.microsoft.com/en-us/library/ff728435(v=msads.90).aspx CustomerFinancialStatus Value Set
  */
 final class CustomerFinancialStatus
 {

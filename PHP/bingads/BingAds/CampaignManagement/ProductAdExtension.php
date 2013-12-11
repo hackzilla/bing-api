@@ -3,10 +3,10 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Available for members of the Product Ads pilot program.
- * @link http://msdn.microsoft.com/en-us/library/jj721706(v=msads.80).aspx ProductAdExtension Data Object
+ * Defines a product ad extension. The extension identifies a Bing Merchant Center store that contains the products that you want to advertise.Available for members of the Product Ads pilot program.The ProductAdExtension object derives from the AdExtension object. For a list of inherited elements, see the AdExtension object.
+ * @link http://msdn.microsoft.com/en-us/library/jj721706(v=msads.90).aspx ProductAdExtension Data Object
  */
-final class ProductAdExtension extends AdExtension2
+final class ProductAdExtension extends AdExtension
 {
     /**
      * The display name of the extension. The name can contain a maximum of 100 characters.

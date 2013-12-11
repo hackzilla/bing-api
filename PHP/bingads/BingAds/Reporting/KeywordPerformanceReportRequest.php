@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines a keyword performance report request that aggregates the performance data by keyword for a specified time period. You can include details in the report (such as clicks, conversion, and spend) that you can use to identify keywords that are performing well, and those that are not.
- * @link http://msdn.microsoft.com/en-us/library/bb671816(v=msads.80).aspx KeywordPerformanceReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671816(v=msads.90).aspx KeywordPerformanceReportRequest Data Object
  */
 final class KeywordPerformanceReportRequest extends ReportRequest
 {
@@ -27,10 +27,22 @@ final class KeywordPerformanceReportRequest extends ReportRequest
     public $Filter;
 
     /**
+     * The top number of data rows to return in the report.
+     * @var int
+     */
+    public $MaxRows;
+
+    /**
      * The scope of the report. Use this element to limit the report to include data for a combination of accounts, ad groups, and campaigns.
      * @var AccountThroughAdGroupReportScope
      */
     public $Scope;
+
+    /**
+     * A list of the columns to sort, and the corresponding sort order.
+     * @var KeywordPerformanceReportSort[]
+     */
+    public $Sort;
 
     /**
      * The time period to use for the report. You can specify a custom date range or select a predefined date range (for example, Today, ThisWeek, or LastMonth).

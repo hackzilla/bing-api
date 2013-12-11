@@ -4,7 +4,7 @@ namespace BingAds\CustomerManagement;
 
 /**
  * Deletes a customer.
- * @link http://msdn.microsoft.com/en-us/library/ff728409(v=MSADS.80).aspx DeleteCustomerRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn451278(v=msads.90).aspx DeleteCustomerRequest Request Object
  */
 final class DeleteCustomerRequest
 {

@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines an ad performance report request that aggregates the performance data by ad for a specified time period. You can use this report to identify ads that are performing well (in terms of clicks, conversions, and spend), and those that you may need to adjust to improve the click-through rate.
- * @link http://msdn.microsoft.com/en-us/library/bb672006(v=msads.80).aspx AdPerformanceReportRequest Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb672006(v=msads.90).aspx AdPerformanceReportRequest Data Object
  */
 final class AdPerformanceReportRequest extends ReportRequest
 {

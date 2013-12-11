@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the AddAdExtensions service operation.
- * @link http://msdn.microsoft.com/en-us/library/jj134406(v=MSADS.80).aspx AddAdExtensionsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn236319(v=msads.90).aspx AddAdExtensionsResponse Response Object
  */
 final class AddAdExtensionsResponse
 {

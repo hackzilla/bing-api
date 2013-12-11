@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Associates the specified target with the specified ad group.
- * @link http://msdn.microsoft.com/en-us/library/dd797121(v=MSADS.80).aspx SetTargetToAdGroupRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277508(v=msads.90).aspx SetTargetToAdGroupRequest Request Object
  */
 final class SetTargetToAdGroupRequest
 {

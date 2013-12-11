@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines the possible search networks on which an ad can display.
- * @link http://msdn.microsoft.com/en-us/library/ff986253(v=msads.80).aspx Network Value Set
+ * @link http://msdn.microsoft.com/en-us/library/ff986253(v=msads.90).aspx Network Value Set
  */
 final class Network
 {

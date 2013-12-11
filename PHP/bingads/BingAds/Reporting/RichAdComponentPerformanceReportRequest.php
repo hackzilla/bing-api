@@ -3,8 +3,8 @@
 namespace BingAds\Reporting;
 
 /**
- * Defines a rich ad performance report request that aggregates the performance data by ad for a specified time period. You can use this report to identify the components of a rich ad that are generating the most clicks.
- * @link http://msdn.microsoft.com/en-us/library/hh180150(v=msads.80).aspx RichAdComponentPerformanceReportRequest Data Object
+ * Defines a rich ad performance report request that aggregates the performance data by ad for a specified time period. You can use this report to identify the components of a rich ad that are generating the most clicks.This report is available for members of the Rich Search Ads pilot program. This report is available only in the US and Canadian markets.
+ * @link http://msdn.microsoft.com/en-us/library/hh180150(v=msads.90).aspx RichAdComponentPerformanceReportRequest Data Object
  */
 final class RichAdComponentPerformanceReportRequest extends ReportRequest
 {

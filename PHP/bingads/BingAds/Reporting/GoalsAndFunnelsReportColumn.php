@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the data columns that you can include in a goals and funnels report.
- * @link http://msdn.microsoft.com/en-us/library/gg262845(v=msads.80).aspx GoalsAndFunnelsReportColumn Value Set
+ * @link http://msdn.microsoft.com/en-us/library/gg262845(v=msads.90).aspx GoalsAndFunnelsReportColumn Value Set
  */
 final class GoalsAndFunnelsReportColumn
 {

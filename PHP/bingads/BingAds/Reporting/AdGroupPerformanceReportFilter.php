@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the ad group performance report data.
- * @link http://msdn.microsoft.com/en-us/library/bb671729(v=msads.80).aspx AdGroupPerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671729(v=msads.90).aspx AdGroupPerformanceReportFilter Data Object
  */
 final class AdGroupPerformanceReportFilter
 {
@@ -15,19 +15,19 @@ final class AdGroupPerformanceReportFilter
     public $AdDistribution;
 
     /**
-     * The report will include data for only the specified types of devices on which the ad is displayed. For example, you can use the filter to include data for only text ads displayed on smartphones.
+     * The report will include data where the ad is displayed on the specified device operating systems. For example, you may use the filter to include data for only ads displayed on Windows devices.
+     * @var DeviceOSReportFilter
+     */
+    public $DeviceOS;
+
+    /**
+     * The report will include data where the ad is displayed on the specified device types. For example, you may use the filter to include data for only ads displayed on smartphones.
      * @var DeviceTypeReportFilter
      */
     public $DeviceType;
 
     /**
-     * Do not use this filter; it is for backwards compatibility only. Instead, use the LanguageCode filter.
-     * @var LanguageAndRegionReportFilter
-     */
-    public $LanguageAndRegion;
-
-    /**
-     * The report will include data for only websites that used the specified languages. For a list of possible values, see LanguageCode Values.
+     * The report will include data for only websites that used the specified languages. For a list of possible values, see Ad Languages.
      * @var string[]
      */
     public $LanguageCode;

@@ -4,7 +4,7 @@ namespace BingAds\AdIntelligence;
 
 /**
  * Response object for the GetEstimatedBidByKeywords service operation.
- * @link http://msdn.microsoft.com/en-us/library/gg986836(v=MSADS.80).aspx GetEstimatedBidByKeywordsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn336987(v=msads.90).aspx GetEstimatedBidByKeywordsResponse Response Object
  */
 final class GetEstimatedBidByKeywordsResponse
 {
@@ -15,7 +15,7 @@ final class GetEstimatedBidByKeywordsResponse
     public $KeywordEstimatedBids;
 
     /**
-     * Contains estimates of clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost that the specified ad group could generate if you used the suggested bid price.
+     * Contains estimates of clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the specified ad group if you would use the suggested bid.
      * @var AdGroupEstimatedBid
      */
     public $AdGroupEstimatedBid;

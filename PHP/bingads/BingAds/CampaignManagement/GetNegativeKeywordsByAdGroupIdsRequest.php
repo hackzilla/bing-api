@@ -3,8 +3,8 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Gets the negative keywords of the specified ad groups.
- * @link http://msdn.microsoft.com/en-us/library/ee703980(v=MSADS.80).aspx GetNegativeKeywordsByAdGroupIdsRequest Request Object
+ * Retrieves the negative keywords of the specified ad groups.
+ * @link http://msdn.microsoft.com/en-us/library/dn277514(v=msads.90).aspx GetNegativeKeywordsByAdGroupIdsRequest Request Object
  */
 final class GetNegativeKeywordsByAdGroupIdsRequest
 {

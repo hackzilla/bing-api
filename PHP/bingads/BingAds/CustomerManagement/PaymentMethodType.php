@@ -3,8 +3,8 @@
 namespace BingAds\CustomerManagement;
 
 /**
- * Defines the possible payment methods of an account.
- * @link http://msdn.microsoft.com/en-us/library/ee704164(v=msads.80).aspx PaymentMethodType Value Set
+ * The value set defines a broad selection of languages; however, not all languages are supported. For a list of supported languages, see Ad Languages.Defines the possible payment methods of an account.
+ * @link http://msdn.microsoft.com/en-us/library/ee704164(v=msads.90).aspx PaymentMethodType Value Set
  */
 final class PaymentMethodType
 {

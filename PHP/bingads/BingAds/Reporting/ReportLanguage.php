@@ -3,8 +3,8 @@
 namespace BingAds\Reporting;
 
 /**
- * Defines the language values that you can use for a report.
- * @link http://msdn.microsoft.com/en-us/library/bb671595(v=msads.80).aspx ReportLanguage Value Set
+ * Defines the language values that you may specify for columns of a downloaded report.
+ * @link http://msdn.microsoft.com/en-us/library/bb671595(v=msads.90).aspx ReportLanguage Value Set
  */
 final class ReportLanguage
 {

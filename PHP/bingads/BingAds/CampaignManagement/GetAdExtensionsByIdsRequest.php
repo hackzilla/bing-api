@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Gets the specified ad extensions from the account's ad extension library.
- * @link http://msdn.microsoft.com/en-us/library/jj134376(v=MSADS.80).aspx GetAdExtensionsByIdsRequest Request Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277515(v=msads.90).aspx GetAdExtensionsByIdsRequest Request Object
  */
 final class GetAdExtensionsByIdsRequest
 {

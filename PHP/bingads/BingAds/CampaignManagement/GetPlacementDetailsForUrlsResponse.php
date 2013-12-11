@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetPlacementDetailsForUrls service operation.
- * @link http://msdn.microsoft.com/en-us/library/dd796802(v=MSADS.80).aspx GetPlacementDetailsForUrlsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277530(v=msads.90).aspx GetPlacementDetailsForUrlsResponse Response Object
  */
 final class GetPlacementDetailsForUrlsResponse
 {

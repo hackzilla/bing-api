@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the keyword performance report data.
- * @link http://msdn.microsoft.com/en-us/library/bb672082(v=msads.80).aspx KeywordPerformanceReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb672082(v=msads.90).aspx KeywordPerformanceReportFilter Data Object
  */
 final class KeywordPerformanceReportFilter
 {
@@ -25,11 +25,6 @@ final class KeywordPerformanceReportFilter
      * @var BidMatchTypeReportFilter
      */
     public $BidMatchType;
-
-    /**
-     * @var CashbackReportFilter
-     */
-    public $Cashback;
 
     /**
      * The report will include data for only the specified delivered match types (as opposed to the bid match type).For example, you can use the filter to include data for ads that were delivered using the exact or phrase match type.
@@ -68,13 +63,7 @@ final class KeywordPerformanceReportFilter
     public $LandingPageUserExperience;
 
     /**
-     * Do not use this filter; it is for backwards compatibility only. Instead, use the LanguageCode filter.
-     * @var LanguageAndRegionReportFilter
-     */
-    public $LanguageAndRegion;
-
-    /**
-     * The report will include data for only websites that used the specified languages. For a list of possible values, see LanguageCode Values.
+     * The report will include data for only websites that used the specified languages. For a list of possible values, see Ad Languages.
      * @var string[]
      */
     public $LanguageCode;

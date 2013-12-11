@@ -4,21 +4,21 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Defines a keyword.
- * @link http://msdn.microsoft.com/en-us/library/bb671833(v=msads.80).aspx Keyword Data Object
+ * @link http://msdn.microsoft.com/en-us/library/bb671833(v=msads.90).aspx Keyword Data Object
  */
 final class Keyword
 {
     /**
-     * The bid to use when the user's query and the keyword match by using a broad match comparison. A broad match results when words in the keyword or phrase are present in the user's query; however, the word order can vary. For more information, see Match Type and Bid Values.
+     * The bid to use when the user's query and the keyword match.
      * @var Bid
      */
-    public $BroadMatchBid;
+    public $Bid;
 
     /**
-     * The bid to use when the keywords that the service extracts from the content page matches the keyword by using an exact match comparison. An exact match results when all of the words in the keyword or phrase exactly match the user's query.
-     * @var Bid
+     * The URL of the webpage to take the user to when they click the ad. The keyword's destination URL is used if specified; otherwise, the ad's destination URL is used.
+     * @var string
      */
-    public $ContentMatchBid;
+    public $DestinationUrl;
 
     /**
      * The editorial review status of the keyword, which indicates whether the keyword is pending review, has been approved, or has been disapproved.
@@ -27,10 +27,9 @@ final class Keyword
     public $EditorialStatus;
 
     /**
-     * The bid to use when the user's query and the keyword match by using an exact match comparison. An exact match results when all of the words in the keyword or phrase exactly match the user's query.
-     * @var Bid
+     * The list of key and value strings for forward compatibility. This element can be used to avoid otherwise breaking changes when new elements are added in future releases.
      */
-    public $ExactMatchBid;
+    public $ForwardCompatibilityMap;
 
     /**
      * The system-generated identifier of the keyword.
@@ -39,10 +38,10 @@ final class Keyword
     public $Id;
 
     /**
-     * Not supported. If you add or update the list of negative keywords, the call will not fail; however, the negative keywords will be ignored. To add negative keywords at the ad group and campaign levels, call the SetNegativeKeywordsToAdGroups and SetNegativeKeywordsToCampaigns operations.
-     * @var string[]
+     * The type of match to compare the keyword and the user's search query.
+     * @var MatchType
      */
-    public $NegativeKeywords;
+    public $MatchType;
 
     /**
      * The string to use as the substitution value in an ad if the ad's title, text, display URL, or destination URL contains the {Param1:default} dynamic substitution string.
@@ -63,13 +62,7 @@ final class Keyword
     public $Param3;
 
     /**
-     * The bid value to use when the user's query and the keyword match by using a phrase match. A phrase match results when all of the words in the keyword or phrase are present in the user's query and are in the same order.
-     * @var Bid
-     */
-    public $PhraseMatchBid;
-
-    /**
-     * The keyword's status. When you add a keyword, you can set the keyword's status to Active or Paused. By default, the status is set to Active.
+     * The keyword's status. By default, the status is set to Active.
      * @var KeywordStatus
      */
     public $Status;

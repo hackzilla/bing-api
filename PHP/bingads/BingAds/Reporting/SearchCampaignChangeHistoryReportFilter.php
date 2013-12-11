@@ -4,7 +4,7 @@ namespace BingAds\Reporting;
 
 /**
  * Defines the criteria to use to filter the campaign change history report data.
- * @link http://msdn.microsoft.com/en-us/library/hh912356(v=msads.80).aspx SearchCampaignChangeHistoryReportFilter Data Object
+ * @link http://msdn.microsoft.com/en-us/library/hh912356(v=msads.90).aspx SearchCampaignChangeHistoryReportFilter Data Object
  */
 final class SearchCampaignChangeHistoryReportFilter
 {

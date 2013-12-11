@@ -4,7 +4,7 @@ namespace BingAds\CampaignManagement;
 
 /**
  * Response object for the GetNegativeKeywordsByCampaignIds service operation.
- * @link http://msdn.microsoft.com/en-us/library/ee703979(v=MSADS.80).aspx GetNegativeKeywordsByCampaignIdsResponse Response Object
+ * @link http://msdn.microsoft.com/en-us/library/dn277519(v=msads.90).aspx GetNegativeKeywordsByCampaignIdsResponse Response Object
  */
 final class GetNegativeKeywordsByCampaignIdsResponse
 {

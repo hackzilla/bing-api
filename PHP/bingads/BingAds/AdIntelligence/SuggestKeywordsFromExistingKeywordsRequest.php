@@ -3,8 +3,8 @@
 namespace BingAds\AdIntelligence;
 
 /**
- * Suggests keywords that may perform better than the specified keywords. The operation suggests relevant keywords that are similar in meaning and intent to the specified keywords.
- * @link http://msdn.microsoft.com/en-us/library/gg712250(v=MSADS.80).aspx SuggestKeywordsFromExistingKeywordsRequest Request Object
+ * Suggests keywords that could perform better than the specified keywords.
+ * @link http://msdn.microsoft.com/en-us/library/dn336990(v=msads.90).aspx SuggestKeywordsFromExistingKeywordsRequest Request Object
  */
 final class SuggestKeywordsFromExistingKeywordsRequest
 {
@@ -49,4 +49,16 @@ final class SuggestKeywordsFromExistingKeywordsRequest
      * @var boolean
      */
     public $ExcludeBrand;
+
+    /**
+     * The identifier of the ad group for suggested keywords.
+     * @var long
+     */
+    public $AdGroupId;
+
+    /**
+     * The identifier of the campaign for suggested keywords.
+     * @var long
+     */
+    public $CampaignId;
 }
